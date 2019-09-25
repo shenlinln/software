@@ -14,3 +14,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+ Route::get('admin/index',"Admin\LoginController@index");
+ Route::match(['get', 'post'],'admin/login',"Admin\LoginController@login");
+ 
+ Route::group(['namespace' => 'Admin','middleware' => ['admin.login']], function(){
+     Route::get('admin/news/list',"NewsController@list");
+
+     
+ });

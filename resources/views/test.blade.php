@@ -3,8 +3,8 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>搜猫资讯-搜猫</title>
-    <meta name="keywords" content="资讯,搜猫资讯,资讯,国内新闻,国际新闻,生活新闻,新闻中心">
+    <title>搜狐新闻-搜狐</title>
+    <meta name="keywords" content="新闻,搜狐新闻,新闻频道,国内新闻,国际新闻,生活新闻,新闻中心">
     <meta name="description" content="搜狐新闻,24小时提供时政新闻,国内新闻,国际新闻,生活新闻,时事热点,新闻图片,军事,历史,生活,的专业时事报道门户网站">
     <meta name="google-site-verification" content="9Is2rLDiKQlefUMv6LRpKi-Qj0xCor2uQNvJrynyrmk" />
     <meta charset="utf-8"/>
@@ -14,10 +14,11 @@
 <meta name="data-spm" content="smpc">
 <link rel="icon" href="//statics.itc.cn/web/static/images/pic/sohu-logo/favicon.ico" type="image/x-icon"/>
 <link rel="shortcut icon" href="//statics.itc.cn/web/static/images/pic/sohu-logo/favicon.ico" type="image/x-icon"/>
-
-<link href="{{URL::asset('css/web/webcss.css')}}" rel="stylesheet"/>
-
-
+<link rel="apple-touch-icon" sizes="57x57" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-144.png" />
+<link href="//statics.itc.cn/web/v3/static/css/main-d7c5852914.css" rel="stylesheet"/>
 <script>
     //  加载监控代码
 </script>
@@ -76,43 +77,122 @@
         };
     })();
 </script>
-<link type="text/css" rel="stylesheet" id="stylemend" href="" />
+
+
+
+    <link type="text/css" rel="stylesheet" id="stylemend" href="" />
+
 </head>
 <body class="news-index" data-spm="news-home">
 
 <div class="wrapper-box">
+
+
+
+<header id="main-header" class="error-head">
+    <div class="area">
+        <div class="head-nav left" data-spm="header">
+            <ul>
+                <li class="index"><a href="http://www.sohu.com"><em class="icon-home icon"></em><em class="sohu-logo">搜狐首页</em></a></li>
+                <li><a href="http://news.sohu.com/">新闻</a></li>
+                <li><a href="http://sports.sohu.com/">体育</a></li>
+                <li><a href="http://auto.sohu.com/">汽车</a></li>
+                <li><a href="http://www.focus.cn/">房产</a></li>
+                <li><a href="http://travel.sohu.com/">旅游</a></li>
+                <li><a href="http://learning.sohu.com/">教育</a></li>
+                <li><a href="http://fashion.sohu.com/">时尚</a></li>
+                <li><a href="http://it.sohu.com/">科技</a></li>
+                <li><a href="http://business.sohu.com/">财经</a></li>
+                <li><a href="http://yule.sohu.com/">娱乐</a></li>																																																																																																														<li class="more-nav"><a href="javascript:void(0)">更多<em class="cor"></em></a>
+                <div class="more-nav-box">
+                    <a href="http://baobao.sohu.com/">母婴</a>
+                    <a href="http://health.sohu.com/">健康</a>
+                    <a href="http://history.sohu.com/">历史</a>
+                    <a href="http://mil.sohu.com/">军事</a>
+                    <a href="http://chihe.sohu.com/">美食</a>
+                    <a href="http://cul.sohu.com/">文化</a>
+                    <a href="http://astro.sohu.com/">星座</a>
+                    <a href="http://www.sohu.com/subject">专题</a>
+                    <a href="http://game.sohu.com/">游戏</a>
+                    <a href="http://fun.sohu.com/">搞笑</a>
+                    <a href="http://acg.sohu.com/">动漫</a>
+                    <a href="http://pets.sohu.com/">宠物</a>
+                </div>
+            </li>
+            </ul>
+        </div>
+        <div id="head-login" class="right login">
+            <div class="login"><a href="javascript:void(0)" data-role="login-btn" class="login-sohu"><i class="icon-user"></i>登录狐友</a></div>
+        </div>
+    </div>
+</header>
+
+<div class="news-ph" id="sohuTopc" style="display:none;">
+    <div class="ph-link">
+        <a href="http://news.sohu.com/s2018/guoqing69/index.shtml" target="_blank"></a>
+    </div>
+    <div id="ph-close" class="ph-close"><a href="javascript:void(0)"></a></div>
+</div>    <!--  皮肤 wrapper box -->
+    <div class="theme-skin-wrap" data-spm="top-festival">
+        <div class="mask"></div>
+        <div class="close-wrap">
+            <div class="icon-wrap">
+                <i class="icon-close"></i>
+            </div>
+            <div>关闭皮肤</div>
+        </div>
+    </div>
+
+
     <div class="main-news-wrap">
+
 <div class="logo-search area">
     <div class="logo left"><a href="http://news.sohu.com/" target="_blank">新闻首页</a></div>
-    <div class="search left" id="search"><input type="text" class="search-input left" value="大家都在搜：火星模拟基地建成" data-val="key" data-spm-acode="8066" data-spm-data="2">
-<span class="search-btn" data-spm-acode="8067" data-spm-data="3"><i class="search-icon icon"></i></span>
-<form target="" style="display:none;width:0;height:0"></form>
-</div>
-</div>
-<div class="news-nav area">
+    <div class="search left" id="search" data-spm="top-search"></div>
+    <div class="links-list-wrap" data-spm="top-func-link">
+        <ul class="links">
+            <a href="http://mp.sohu.com" target="_blank">
+                <li class="link shh">
+                    <div class="icon"></div>
+                    <div class="title">搜狐号</div>
 
-     <ul >
+                </li>
+            </a>
+            <a href="https://www.sogou.com" target="_blank">
+                <li class="link sougou">
+                    <div class="icon"></div>
+                    <div class="title">搜狗搜索</div>
+                </li>
+            </a>
+            <a href="https://mail.sohu.com" target="_blank">
+                <li class="link sohu_email">
+                    <div class="icon"></div>
+                    <div class="title">搜狐邮箱</div>
+                </li>
+            </a>
+        </ul>
+    </div>
+
+</div>
+
+<div class="news-nav area">
+    <ul data-spm="top-subnav">
         <li class="index cur"><a href="http://www.sohu.com" target="_blank">首页</a></li>
-        <li><a href="http://www.sohu.com/c/8/1460" target="_blank">资讯</a></li>
-        <li><a href="http://www.sohu.com/c/8/1461" target="_blank">时事</a></li>
-        <li><a href="http://mil.sohu.com/" target="_blank">法治</a></li>
-        <li><a href="http://police.news.sohu.com/" target="_blank">财经</a></li>
-        <li><a href="http://www.sohu.com/subject" target="_blank">民生</a></li>
-        <li><a href="http://gongyi.sohu.com/" target="_blank">体育</a></li>
-        <li><a href="http://wrj.sohu.com" target="_blank">科技</a></li>
-        <li><a href="http://mp.sohu.com/profile?xpt=bGFubGFuZGUyMkBzb2h1LmNvbQ==" target="_blank">军事</a></li>
-        <li><a href="http://mp.sohu.com/profile?xpt=NzJCMERBNUNDN0NEODJBOTkwMTZFMkM2NkU3REM3QjBAcXEuc29odS5jb20=" target="_blank">人物</a></li>
-        <li><a href="http://mp.sohu.com/profile?xpt=ZmVpbHUyMTAxMjdAc29odS1pbmMuY29t" target="_blank">文教</a></li>
-        <li><a href="http://mp.sohu.com/profile?xpt=c29odXptdHo1eXk3cEBzb2h1LmNvbQ==" target="_blank">国际</a></li>
+        <li><a href="http://www.sohu.com/c/8/1460" target="_blank">时政</a></li>
+        <li><a href="http://www.sohu.com/c/8/1461" target="_blank">国际</a></li>
+        <li><a href="http://mil.sohu.com/" target="_blank">军事</a></li>
+        <li><a href="http://police.news.sohu.com/" target="_blank">警法</a></li>
+        <li><a href="http://www.sohu.com/subject" target="_blank">专题</a></li>
+        <li><a href="http://gongyi.sohu.com/" target="_blank">公益</a></li>
+        <li><a href="http://wrj.sohu.com" target="_blank">无人机</a></li>
+        <li><a href="http://mp.sohu.com/profile?xpt=bGFubGFuZGUyMkBzb2h1LmNvbQ==" target="_blank">狐度</a></li>
+        <li><a href="http://mp.sohu.com/profile?xpt=NzJCMERBNUNDN0NEODJBOTkwMTZFMkM2NkU3REM3QjBAcXEuc29odS5jb20=" target="_blank">数字之道</a></li>
+        <li><a href="http://mp.sohu.com/profile?xpt=ZmVpbHUyMTAxMjdAc29odS1pbmMuY29t" target="_blank">知世</a></li>
+        <li><a href="http://mp.sohu.com/profile?xpt=c29odXptdHo1eXk3cEBzb2h1LmNvbQ==" target="_blank">神吐槽</a></li>
     </ul>
 </div>
- <div class="god-wrapper area clearfix god-first" data-role="god_column">
-<div class="god-head left" data-role="god_column" data-god-id="15595" data-monitorkey="084ea1bbd2a1b8662_0_0">
-<!-- <a href="http://corp.sohu.com/s2007/privacy/" target="_blank" class="got-i-icon"></a> -->
-<span class="god-mark">广告</span><a class="swf-top" href="https://film.sohu.com/album/997214.html" target="_blank"></a>
-<div> <img src="//e8aeb8bbdbbd7.cdn.sohucs.com/lemon/2019/09/16/CgpU5F1-5xGABI2QAAB7UTVbUQM5821030x100.jpg"></div>
-</div>
- </div>
+        <div class="god-wrapper area clearfix god-first" data-role="god_column">
+        </div>
 
 <div class="contentA public area clearfix">
     <div class="main left">
@@ -146,7 +226,23 @@
     </ul>
 </div>
 </div>
+                <!--热点视频-->
 
+
+<div class="video-mod clear" data-spm="top-hotvideo">
+    <div class="titleL"><span class="tt">热点视频</span></div>
+    <div class="video-focus-pic" data-video-wrapper="video1"><a data-clev="10220169" data-video-clicker='video3' data-vid="153890458" data-title="海豚误入运河找不到路 志愿者组人链施救" data-site="2" href="javascript:void(0)" target="_blank" title='海豚误入运河找不到路 志愿者组人链施救'><img src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_320,h_160,g_faces/c_cut,x_64,y_52,w_512,h_256/os/news/d9f8a9103871b017669b3074b0c953d4.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em class="txt">海豚误入运河找不到路 志愿者组人链施救</em></span><i class="icon icon-video"></i></a></div>
+    <div class="list-link clearfix">
+        <ul>
+                <li><a data-clev="10220170" data-video-clicker='video3' data-vid="153939458" data-title="为拍视频成网红 男子竟坐引擎盖上演无人驾驶" data-site="2" href="javascript:void(0)" target="_blank" title='为拍视频成网红 男子竟坐引擎盖上演无人驾驶'><i class="icon icon-video"></i>为拍视频成网红 男子竟坐引擎盖上演无人驾驶</a></li>
+                <li><a data-clev="10220171" data-video-clicker='video3' data-vid="153935770" data-title="广东大楼墙突然大面积脱落 路人吓坏四处躲避" data-site="2" href="javascript:void(0)" target="_blank" title='广东大楼墙突然大面积脱落 路人吓坏四处躲避'><i class="icon icon-video"></i>广东大楼墙突然大面积脱落 路人吓坏四处躲避</a></li>
+                <li><a data-clev="10220172" data-video-clicker='video3' data-vid="153891013" data-title="两男子插队买肉起争执 一气之下买下全部排骨" data-site="2" href="javascript:void(0)" target="_blank" title='两男子插队买肉起争执 一气之下买下全部排骨'><i class="icon icon-video"></i>两男子插队买肉起争执 一气之下买下全部排骨</a></li>
+                <li><a data-clev="10220173" data-video-clicker='video3' data-vid="153939535" data-title="租房留狗屎女网红现身打扫 已道歉与房东协商" data-site="2" href="javascript:void(0)" target="_blank" title='租房留狗屎女网红现身打扫 已道歉与房东协商'><i class="icon icon-video"></i>租房留狗屎女网红现身打扫 已道歉与房东协商</a></li>
+                <li><a data-clev="10220174" data-video-clicker='video3' data-vid="153887991" data-title="司机小区醉驾连撞9车 为躲民警检查疯狂闯关" data-site="2" href="javascript:void(0)" target="_blank" title='司机小区醉驾连撞9车 为躲民警检查疯狂闯关'><i class="icon icon-video"></i>司机小区醉驾连撞9车 为躲民警检查疯狂闯关</a></li>
+                <li><a data-clev="10220175" data-video-clicker='video3' data-vid="153890397" data-title="九寨沟将于9月27日恢复开放 每日限量5000人" data-site="2" href="javascript:void(0)" target="_blank" title='九寨沟将于9月27日恢复开放 每日限量5000人'><i class="icon icon-video"></i>九寨沟将于9月27日恢复开放 每日限量5000人</a></li>
+        </ul>
+    </div>
+</div>
             </div>
             <div class="main-right right">
 
@@ -214,9 +310,53 @@
             </a></li>
         </ul>
     </div>
-    
+    <div class="list16" data-spm="top-news4">
+        <ul>
+            <li><a data-param="_f=index_chan08news_10" href="http://www.sohu.com/a/342987932_162522" target="_blank" title='<b>孟晚舟再次出庭：感谢你们 让一米阳光照进了我的心</b>'>
+            <i class="icon icon-video"></i>
+                <b>孟晚舟再次出庭：感谢你们 让一米阳光照进了我的心</b>
+            </a></li>
+            <li><a data-param="_f=index_chan08news_11" href="http://www.sohu.com/a/342944763_115479" target="_blank" title='任正非：我已把生死置之度外'>
+            
+                任正非：我已把生死置之度外
+            </a></li>
+            <li><a data-param="_f=index_chan08news_12" href="http://www.sohu.com/a/342968046_115479" target="_blank" title='特朗普：我应该获得诺贝尔和平奖 凭啥奥巴马有我没有'>
+            
+                特朗普：我应该获得诺贝尔和平奖 凭啥奥巴马有我没有
+            </a></li>
+            <li><a data-param="_f=index_chan08news_13" href="http://www.sohu.com/a/343016200_260616" target="_blank" title='津巴布韦政府首次透露穆加贝死因'>
+            
+                津巴布韦政府首次透露穆加贝死因
+            </a></li>
+            <li><a data-param="_f=index_chan08news_14" href="http://www.sohu.com/a/342956943_115479" target="_blank" title='专家起底“日本神药”：用药胆子大 买家胆子更大'>
+            <i class="icon icon-video"></i>
+                专家起底“日本神药”：用药胆子大 买家胆子更大
+            </a></li>
+        </ul>
+    </div>
     <div class="list16" data-spm="top-news5">
-
+        <ul>
+            <li><a data-param="_f=index_chan08news_15" href="http://www.sohu.com/a/342895583_162522" target="_blank" title='<b>中学生将同学从4楼扔下 肇事者母亲：儿子在校常被欺负</b>'>
+            
+                <b>中学生将同学从4楼扔下 肇事者母亲：儿子在校常被欺负</b>
+            </a></li>
+            <li><a data-param="_f=index_chan08news_16" href="http://www.sohu.com/a/342991384_260616" target="_blank" title='女子意外怀孕向外卖小哥索赔3万？江苏网警回应'>
+            <i class="icon icon-video"></i>
+                女子意外怀孕向外卖小哥索赔3万？江苏网警回应
+            </a></li>
+            <li><a data-param="_f=index_chan08news_17" href="http://www.sohu.com/a/342974530_115479" target="_blank" title='男子庆祝出狱在看守所门口放鞭炮 被10多名武警围追(图)'>
+            <i class="icon icon-video"></i>
+                男子庆祝出狱在看守所门口放鞭炮 被10多名武警围追(图)
+            </a></li>
+            <li><a data-param="_f=index_chan08news_18" href="http://www.sohu.com/a/342957146_260616" target="_blank" title='女网红租房期满失联留一屋狗屎垃圾 回应：已道歉 正打扫'>
+            
+                女网红租房期满失联留一屋狗屎垃圾 回应：已道歉 正打扫
+            </a></li>
+            <li><a data-param="_f=index_chan08news_19" href="http://www.sohu.com/a/341975352_260616" target="_blank" title='男子买“两头票”称中间449公里朋友开飞机送的，遭行拘'>
+            
+                男子买“两头票”称中间449公里朋友开飞机送的，遭行拘
+            </a></li>
+        </ul>
     </div>
 </div>            </div>
         </div>
@@ -224,7 +364,7 @@
     <div class="sidebar right">
         <!--搜狐精选-->
 <div class="choice-mod bordR clearfix" data-spm="choice">
-    <div class="titleR"><span class="tt">搜猫精选</span></div>
+    <div class="titleR"><span class="tt">搜狐精选</span></div>
     <div class="choice-pic"><a data-param="_f=index_chan08select_0" title="天网恢恢 负案在逃7个月 终究难逃法网" href="//www.sohu.com/a/342799138_420076?scm=1002.590044.0.28b5-4ab" target="_blank"><img src="//5b0988e595225.cdn.sohucs.com/q_70,c_lfill,w_300,h_200,g_faces/images/20190923/ec0a66bfb4ff44f2961441f97062cc2d.jpeg" alt=""><span class="linear-box"><em class="linear-bg"></em><em class="linear-txt">天网恢恢 负案在逃7个月 终究难逃法网</em></span></a></div>
     <div class="choice-list">
         <ul>
@@ -234,20 +374,104 @@
             <li><a data-param="_f=index_chan08select_3" title="90后女博士获聘大学教授、博导，本不该是“新闻”" href="//www.sohu.com/a/342785751_665455?scm=1002.590044.0.28b5-4ab" target="_blank">90后女博士获聘大学教授、博导，本不该是“新闻”</a></li>
             <li><a data-param="_f=index_chan08select_4" title="万物有趣 | 性生活过程中想小便正常吗？专家称约六成人都会尿急" href="//www.sohu.com/a/342829298_104952?scm=1002.590044.0.28b5-4ab" target="_blank">万物有趣 | 性生活过程中想小便正常吗？专家称约六成人都会尿急</a></li>
             <li><a data-param="_f=index_chan08select_5" title="渣男骗婚落网记 " href="//www.sohu.com/a/342769236_420076?scm=1002.590044.0.28b5-4ab" target="_blank">渣男骗婚落网记 </a></li>
+            <li><a data-param="_f=index_chan08select_6" title="花8000元买个假证，值吗？！" href="//www.sohu.com/a/342739067_420076?scm=1002.590044.0.28b5-4ab" target="_blank">花8000元买个假证，值吗？！</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
         </ul>
     </div>
 </div>
-
+        <div class="godR" data-role="god_side">
+        </div>
+    </div>
+</div>
+<div data-role='most-site' class="contentB area clearfix">
+    <div class="title-mod" data-spm="video-nav"><span class="tt"><a href="http://tv.sohu.com/ugc/eyes/" target="_blank">最现场</a></span></div>
+    <div class="video-scroll">
+        <div class="video-scroll-con">
+            <div class="video-scroll-box">
+                <div class="main left" data-video-wrapper='video2' data-spm="video-focus">
+                    <div class="video-focusA"><a data-clev="10220133" data-video-clicker='video3' data-vid="153956654" data-title="深圳城中村拆除重建 或将诞生1878个亿万富翁" data-site="2" href="javascript:void(0)" target="_blank" title='深圳城中村拆除重建 或将诞生1878个亿万富翁'><span class="pic"><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload_2_1.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_410,h_230,g_faces/c_cut,x_42,y_0,w_540,h_360/os/news/efee939fa7a1a963c0fde61393b3d582.jpg" alt=""></span><span class="video-txt">深圳城中村拆除重建 或将诞生1878个亿万富翁</span><i class="icon icon-video"></i></a></div>
+                </div>
+                <div class="sidebar right" data-spm="video-list">
+                    <div data-video-box="0" class="video-list clearfix" style="display:block;">
+                        <ul>
+                            <li class=""><a data-spm-strict="true" data-clev="10220134" data-video-clicker='video3' data-vid="153942073" data-title="孟晚舟案开始实质性审理 再次出庭面带笑容" data-site="2" href="javascript:void(0)" target="_blank" title='孟晚舟案开始实质性审理 再次出庭面带笑容'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/24/7/43/MTAwMTE0XzE1NjkyODIxOTQ2MjVfMTUzOTQyMDczX3VnY3ZjdXQ=.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153942073" class="linear-txt"></em></span><span class="des">孟晚舟案开始实质性审理 再次出庭面带笑容</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220135" data-video-clicker='video3' data-vid="153528294" data-title="奶奶带孙子服装店试衣 孩子险被两妇女拽走" data-site="2" href="javascript:void(0)" target="_blank" title='奶奶带孙子服装店试衣 孩子险被两妇女拽走'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_23,y_0,w_540,h_360/os/news/4f2ad0057e04a008b8499dcf25ad9b71.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153528294" class="linear-txt"></em></span><span class="des">奶奶带孙子服装店试衣 孩子险被两妇女拽走</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220136" data-video-clicker='video3' data-vid="153939535" data-title="租房留狗屎女网红现身打扫 已道歉与房东协商" data-site="2" href="javascript:void(0)" target="_blank" title='租房留狗屎女网红现身打扫 已道歉与房东协商'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/24/7/20/MTAwMTE0XzE1NjkyODA4NDc4NjRfMTUzOTM5NTM1X3VnY3ZjdXQ=.png" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153939535" class="linear-txt"></em></span><span class="des">租房留狗屎女网红现身打扫 已道歉与房东协商</span><i class="icon icon-video"></i></a></li>
+                            <li class="end"><a data-spm-strict="true" data-clev="10220137" data-video-clicker='video3' data-vid="153969933" data-title="女子考验男友报假警称手机被抢 男友报警举报" data-site="2" href="javascript:void(0)" target="_blank" title='女子考验男友报假警称手机被抢 男友报警举报'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/24/11/4/MTAwMTE0XzE1NjkyOTQyNjk5NTBfMTUzOTY5OTMzX3VnY3ZjdXQ=.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153969933" class="linear-txt"></em></span><span class="des">女子考验男友报假警称手机被抢 男友报警举报</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220138" data-video-clicker='video3' data-vid="153875638" data-title="一家11人半月内结婚离婚23次 亲家母都不放过" data-site="2" href="javascript:void(0)" target="_blank" title='一家11人半月内结婚离婚23次 亲家母都不放过'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/23/18/43/MTAwMTE0XzE1NjkyMzU0MTEyNjdfMTUzODc1NjM4X3VnY3ZjdXQ=.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153875638" class="linear-txt"></em></span><span class="des">一家11人半月内结婚离婚23次 亲家母都不放过</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220139" data-video-clicker='video3' data-vid="153945452" data-title="自媒体用哭房女视频被索赔 当事人：一时冲动" data-site="2" href="javascript:void(0)" target="_blank" title='自媒体用哭房女视频被索赔 当事人：一时冲动'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/24/8/9/MTAwMTE0XzE1NjkyODM3NTUwODdfMTUzOTQ1NDUyX3VnY3ZjdXQ=.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153945452" class="linear-txt"></em></span><span class="des">自媒体用哭房女视频被索赔 当事人：一时冲动</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220140" data-video-clicker='video3' data-vid="153949649" data-title="九寨沟景区9月27日将恢复开园 拟开放85%区域" data-site="2" href="javascript:void(0)" target="_blank" title='九寨沟景区9月27日将恢复开园 拟开放85%区域'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/24/8/34/MTAwMTE0XzE1NjkyODUyODg3ODVfMTUzOTQ5NjQ5X3VnY3ZjdXQ=.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153949649" class="linear-txt"></em></span><span class="des">九寨沟景区9月27日将恢复开园 拟开放85%区域</span><i class="icon icon-video"></i></a></li>
+                            <li class="end"><a data-spm-strict="true" data-clev="10220141" data-video-clicker='video3' data-vid="153943526" data-title="屋主外出家中住下小偷 抽烟睡觉做卫生吹空调" data-site="2" href="javascript:void(0)" target="_blank" title='屋主外出家中住下小偷 抽烟睡觉做卫生吹空调'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_40,y_0,w_540,h_360/os/news/7c007cf62377dc28bec9883c76902c6b.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153943526" class="linear-txt"></em></span><span class="des">屋主外出家中住下小偷 抽烟睡觉做卫生吹空调</span><i class="icon icon-video"></i></a></li>
+                        </ul>
+                    </div>
+                    <div data-video-box="1" class="video-list clearfix">
+                        <ul>
+                            <li class=""><a data-spm-strict="true" data-clev="10220142" data-video-clicker='video3' data-vid="153062259" data-title="妻子患抑郁症捐光55万 慈善机构：很难退回" data-site="2" href="javascript:void(0)" target="_blank" title='妻子患抑郁症捐光55万 慈善机构：很难退回'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_70,y_0,w_468,h_360/os/news/6d7764e659c39d34b05a7f4f3a1aa584.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153062259" class="linear-txt"></em></span><span class="des">妻子患抑郁症捐光55万 慈善机构：很难退回</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220143" data-video-clicker='video3' data-vid="153805114" data-title="女子患怪病眼泪变水晶 每天50颗医生无法确诊" data-site="2" href="javascript:void(0)" target="_blank" title='女子患怪病眼泪变水晶 每天50颗医生无法确诊'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/23/9/31/MTAwMTE0XzE1NjkyMDIzMTY0ODFfMTUzODA1MTE0X3VnY3ZjdXQ=.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153805114" class="linear-txt"></em></span><span class="des">女子患怪病眼泪变水晶 每天50颗医生无法确诊</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220144" data-video-clicker='video3' data-vid="153698699" data-title="胖男孩落水不沉终获救 网友：肥而不“溺”" data-site="2" href="javascript:void(0)" target="_blank" title='胖男孩落水不沉终获救 网友：肥而不“溺”'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/22/15/13/MTAwMTE0XzE1NjkxMzY0MDQzNzhfMTUzNjk4Njk5X3VnY3ZjdXQ=.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153698699" class="linear-txt"></em></span><span class="des">胖男孩落水不沉终获救 网友：肥而不“溺”</span><i class="icon icon-video"></i></a></li>
+                            <li class="end"><a data-spm-strict="true" data-clev="10220145" data-video-clicker='video3' data-vid="153797718" data-title="南非劫匪持枪抢成箱现金 与店员发生激烈枪战" data-site="2" href="javascript:void(0)" target="_blank" title='南非劫匪持枪抢成箱现金 与店员发生激烈枪战'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/23/8/16/MTAwMTE0XzE1NjkxOTc4MTI4MTVfMTUzNzk3NzE4X3VnY3ZjdXQ=.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153797718" class="linear-txt"></em></span><span class="des">南非劫匪持枪抢成箱现金 与店员发生激烈枪战</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220146" data-video-clicker='video3' data-vid="153784867" data-title="中国首只克隆猫“大蒜”回家 主人：盼像以前" data-site="2" href="javascript:void(0)" target="_blank" title='中国首只克隆猫“大蒜”回家 主人：盼像以前'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_56,y_0,w_567,h_378/os/news/3cc3247c11a9b360993844ce81b5a432.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153784867" class="linear-txt"></em></span><span class="des">中国首只克隆猫“大蒜”回家 主人：盼像以前</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220147" data-video-clicker='video3' data-vid="153709395" data-title="男子枣庄持刀抢劫后续 与女友分手轻生想坐牢" data-site="2" href="javascript:void(0)" target="_blank" title='男子枣庄持刀抢劫后续 与女友分手轻生想坐牢'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/os/news/e8de9b1d4b672dc39b2a14fd7b1b236.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153709395" class="linear-txt"></em></span><span class="des">男子枣庄持刀抢劫后续 与女友分手轻生想坐牢</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220148" data-video-clicker='video3' data-vid="153724383" data-title="女司机与保安互殴占下风 喊来亲友上演全武行" data-site="2" href="javascript:void(0)" target="_blank" title='女司机与保安互殴占下风 喊来亲友上演全武行'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_0,y_38,w_655,h_436/os/news/ba7f5d85d857263f280a8881177ea45f.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153724383" class="linear-txt"></em></span><span class="des">女司机与保安互殴占下风 喊来亲友上演全武行</span><i class="icon icon-video"></i></a></li>
+                            <li class="end"><a data-spm-strict="true" data-clev="10220149" data-video-clicker='video3' data-vid="153523908" data-title="女顾客疑遭华裔按摩师性侵90分钟 至瘫痪昏厥" data-site="2" href="javascript:void(0)" target="_blank" title='女顾客疑遭华裔按摩师性侵90分钟 至瘫痪昏厥'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_0,y_0,w_531,h_354/os/news/cff80a7f94a9353c306b60804cd40dd.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153523908" class="linear-txt"></em></span><span class="des">女顾客疑遭华裔按摩师性侵90分钟 至瘫痪昏厥</span><i class="icon icon-video"></i></a></li>
+                        </ul>
+                    </div>
+                    <div data-video-box="2" class="video-list clearfix">
+                        <ul>
+                            <li class=""><a data-spm-strict="true" data-clev="10220150" data-video-clicker='video3' data-vid="153666127" data-title="深圳推出全新国庆版灯光秀 流光溢彩美轮美奂" data-site="2" href="javascript:void(0)" target="_blank" title='深圳推出全新国庆版灯光秀 流光溢彩美轮美奂'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/os/news/d58d41c89d89118a2d94669c7da2c9f6.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153666127" class="linear-txt"></em></span><span class="des">深圳推出全新国庆版灯光秀 流光溢彩美轮美奂</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220151" data-video-clicker='video3' data-vid="153535573" data-title="两家眼镜店 因音响问题大打出手" data-site="2" href="javascript:void(0)" target="_blank" title='两家眼镜店 因音响问题大打出手'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/21/12/56/MTAwMTE0XzE1NjkwNDE3NzExMjRfMTUzNTM1NTczX3VnY3ZjdXQ=.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153535573" class="linear-txt"></em></span><span class="des">两家眼镜店 因音响问题大打出手</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220152" data-video-clicker='video3' data-vid="153708189" data-title="妻子打麻将4岁孩子独自在家 男子无奈报警" data-site="2" href="javascript:void(0)" target="_blank" title='妻子打麻将4岁孩子独自在家 男子无奈报警'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/22/16/54/MTAwMTE0XzE1NjkxNDI0NjQxMTFfMTUzNzA4MTg5X3VnY3ZjdXQ=.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153708189" class="linear-txt"></em></span><span class="des">妻子打麻将4岁孩子独自在家 男子无奈报警</span><i class="icon icon-video"></i></a></li>
+                            <li class="end"><a data-spm-strict="true" data-clev="10220153" data-video-clicker='video3' data-vid="153675022" data-title="“任性姐妹”拍视频挑衅交警 结果引起舒适" data-site="2" href="javascript:void(0)" target="_blank" title='“任性姐妹”拍视频挑衅交警 结果引起舒适'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_0,y_26,w_485,h_323/os/news/3b2d0be3c04bff9b5dcca5a95e6fcccb.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153675022" class="linear-txt"></em></span><span class="des">“任性姐妹”拍视频挑衅交警 结果引起舒适</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220154" data-video-clicker='video3' data-vid="153704385" data-title="快递员弄丢50万元珠宝包裹 民警调监控寻回" data-site="2" href="javascript:void(0)" target="_blank" title='快递员弄丢50万元珠宝包裹 民警调监控寻回'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/22/16/21/MTAwMTE0XzE1NjkxNDA0ODU1NzBfMTUzNzA0Mzg1X3VnY3ZjdXQ=.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153704385" class="linear-txt"></em></span><span class="des">快递员弄丢50万元珠宝包裹 民警调监控寻回</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220155" data-video-clicker='video3' data-vid="153498005" data-title="女子吃双汇火腿肠吃出一嘴活虫 厂家：赔100元" data-site="2" href="javascript:void(0)" target="_blank" title='女子吃双汇火腿肠吃出一嘴活虫 厂家：赔100元'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/21/8/7/MTAwMTE0XzE1NjkwMjQ0NTM1ODZfMTUzNDk4MDA1X3VnY3ZjdXQ=.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153498005" class="linear-txt"></em></span><span class="des">女子吃双汇火腿肠吃出一嘴活虫 厂家：赔100元</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220156" data-video-clicker='video3' data-vid="153571520" data-title="小胖在班晚会上激情热舞 动作魔性引同学惊呼" data-site="2" href="javascript:void(0)" target="_blank" title='小胖在班晚会上激情热舞 动作魔性引同学惊呼'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/os/news/dbb3787ed15efd0f5a16eccc55c3c8c3.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153571520" class="linear-txt"></em></span><span class="des">小胖在班晚会上激情热舞 动作魔性引同学惊呼</span><i class="icon icon-video"></i></a></li>
+                            <li class="end"><a data-spm-strict="true" data-clev="10220157" data-video-clicker='video3' data-vid="153569073" data-title="2村民坐氢气球打松籽 飞上天后越飘越高" data-site="2" href="javascript:void(0)" target="_blank" title='2村民坐氢气球打松籽 飞上天后越飘越高'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/os/news/773a0979c2a1fa8ba7b9b4dcbc1810c8.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153569073" class="linear-txt"></em></span><span class="des">2村民坐氢气球打松籽 飞上天后越飘越高</span><i class="icon icon-video"></i></a></li>
+                        </ul>
+                    </div>
+                    <div data-video-box="3" class="video-list clearfix">
+                        <ul>
+                            <li class=""><a data-spm-strict="true" data-clev="10220158" data-video-clicker='video3' data-vid="153564249" data-title="男子冲进加油站乱砸 12秒后被一群壮汉制服" data-site="2" href="javascript:void(0)" target="_blank" title='男子冲进加油站乱砸 12秒后被一群壮汉制服'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/os/news/54767e53322785530194d30a1e2ae655.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153564249" class="linear-txt"></em></span><span class="des">男子冲进加油站乱砸 12秒后被一群壮汉制服</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220159" data-video-clicker='video3' data-vid="153567218" data-title="湖北1岁娃地铁站台小便 父母举动获赞无数" data-site="2" href="javascript:void(0)" target="_blank" title='湖北1岁娃地铁站台小便 父母举动获赞无数'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_129,y_3,w_522,h_401/os/news/bfa2b084defe4927be40da536894f095.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153567218" class="linear-txt"></em></span><span class="des">湖北1岁娃地铁站台小便 父母举动获赞无数</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220160" data-video-clicker='video3' data-vid="153567420" data-title="长春一老人公交车上坐人身上 只因抢座没抢过" data-site="2" href="javascript:void(0)" target="_blank" title='长春一老人公交车上坐人身上 只因抢座没抢过'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_0,y_-3,w_426,h_284/os/news/c3d125e022b4582f1205393cb9301d50.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153567420" class="linear-txt"></em></span><span class="des">长春一老人公交车上坐人身上 只因抢座没抢过</span><i class="icon icon-video"></i></a></li>
+                            <li class="end"><a data-spm-strict="true" data-clev="10220161" data-video-clicker='video3' data-vid="153550185" data-title="超市女顾客向男子吐口水 被其一巴掌反击" data-site="2" href="javascript:void(0)" target="_blank" title='超市女顾客向男子吐口水 被其一巴掌反击'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_0,y_0,w_400,h_267/os/news/eeb2ecd635f438798e98d8edac1f760b.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153550185" class="linear-txt"></em></span><span class="des">超市女顾客向男子吐口水 被其一巴掌反击</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220162" data-video-clicker='video3' data-vid="153378125" data-title="男子手举输液吊瓶单手骑车 网友：拿命骑车" data-site="2" href="javascript:void(0)" target="_blank" title='男子手举输液吊瓶单手骑车 网友：拿命骑车'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/20/12/24/MTAwMTE0XzE1Njg5NTM0NjAyMjRfMTUzMzc4MTI1X3VnY3ZjdXQ=.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153378125" class="linear-txt"></em></span><span class="des">男子手举输液吊瓶单手骑车 网友：拿命骑车</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220163" data-video-clicker='video3' data-vid="153275424" data-title="2女子夜宵后随地小便被制止 殴打环卫夫妻" data-site="2" href="javascript:void(0)" target="_blank" title='2女子夜宵后随地小便被制止 殴打环卫夫妻'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/19/19/24/MTAwMTE0XzE1Njg4OTIyODA5NDlfMTUzMjc1NDI0X3VnY3ZjdXQ=.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153275424" class="linear-txt"></em></span><span class="des">2女子夜宵后随地小便被制止 殴打环卫夫妻</span><i class="icon icon-video"></i></a></li>
+                            <li class=""><a data-spm-strict="true" data-clev="10220164" data-video-clicker='video3' data-vid="153258610" data-title="30万跑车停放天桥下 结果4个车轮全被偷" data-site="2" href="javascript:void(0)" target="_blank" title='30万跑车停放天桥下 结果4个车轮全被偷'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/os/news/6753af47621440a8f843cd79ba42929d.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153258610" class="linear-txt"></em></span><span class="des">30万跑车停放天桥下 结果4个车轮全被偷</span><i class="icon icon-video"></i></a></li>
+                            <li class="end"><a data-spm-strict="true" data-clev="10220165" data-video-clicker='video3' data-vid="153276634" data-title="SUV闹市区连撞3辆电动车 致1死3伤" data-site="2" href="javascript:void(0)" target="_blank" title='SUV闹市区连撞3辆电动车 致1死3伤'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_42,y_0,w_270,h_180/os/news/ebddb2909049a47b26507d8f1ef29266.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153276634" class="linear-txt"></em></span><span class="des">SUV闹市区连撞3辆电动车 致1死3伤</span><i class="icon icon-video"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="video-btns"><a class="btnl" href="javascript:void(0)"></a><a class="btnr" href="javascript:void(0)"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="video-autos">
+        <span data-point="0" class="cur"><a></a></span>
+        <span data-point="1" class=""><a></a></span>
+        <span data-point="2" class=""><a></a></span>
+        <span data-point="3" class=""><a></a></span>
     </div>
 </div>
 
 
+
+
+<!--时政生活-->
 <div class="content-politics-society area public clearfix" data-role="politics-society-section">
     <div class="main left">
-        <div class="title-mod" data-spm="pol-subject-nav"><span class="tt">
-         <a href="http://www.sohu.com/c/8/1460" target="_blank">资讯</a>
-         <a href="http://www.sohu.com/subject" target="_blank"></a></span></div>
+        <div class="title-mod" data-spm="pol-subject-nav"><span class="tt"><a href="http://www.sohu.com/c/8/1460" target="_blank">时政</a><em class="dot"></em><a href="http://www.sohu.com/subject" target="_blank">专题</a></span></div>
         <div class="main-modA clear">
             <div class="main-left left" data-spm="pol-subject-pics">
                 <div class="video-focusB"><a data-param="_f=index_chan08pol_socfocus_0" href="http://www.sohu.com/a/343006617_114988" target="_blank" title="英、法、德发布联合声明：伊朗应为沙特石油设施遇袭负责"><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload_2_1.png" data-src="//5b0988e595225.cdn.sohucs.com/c_fill,w_410,h_205,g_faces/images/20190924/1788016d050745dea84a099f986ed335.jpeg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em class="linear-txt">英、法、德发布联合声明：伊朗应为沙特石油设施遇袭负责</em></span></a></div>
@@ -312,9 +536,7 @@
         </div>
         <div class="main-modB clearfix">
             <div class="main-left left">
-                <div class="titleLB" data-spm="pol-nav">
-                <span class="tt"><a href="//www.sohu.com/c/8/1460" target="_blank">要闻</a></span>
-                <span class="more"><a href="//www.sohu.com/c/8/1460" target="_blank">更多 &gt;</a></span></div>
+                <div class="titleLB" data-spm="pol-nav"><span class="tt"><a href="//www.sohu.com/c/8/1460" target="_blank">时局</a></span><span class="more"><a href="//www.sohu.com/c/8/1460" target="_blank">更多 &gt;</a></span></div>
                 <div class="list16" data-spm="pol-news">
                     <ul>
                             <li><a data-param="_f=index_chan08polnews_0" href="http://www.sohu.com/a/343006617_114988?g=0" target="_blank" title='英、法、德发布联合声明：伊朗应为沙特石油设施遇袭负责'>
@@ -369,136 +591,20 @@
 
     <div class="sidebar right">
         <div class="hot-rank bordR clearfix" data-role="hot-rank">
-<div class="hot-rank bordR clearfix" data-role="hot-rank"><div class="titleR"><span class="tt">热门新闻</span>
 
-</div>
-
-<div class="sn-list sn-rank1" data-spm="hotvideo-day">
-    <ul>
-    
-        <li data-spm-type="resource" data-spm-data="1" data-spm-content="javascript:void(0)"><em class="sn sc">1
-        </em><a data-clev="10220176" data-site="2" data-video-clicker="video3" data-vid="152315702" data-title="男子睡觉被子屡遭老婆抢走 一气之下给老婆做了条玉米竿被子" title="男子睡觉被子屡遭老婆抢走 一气之下给老婆做了条玉米竿被子" href="javascript:void(0)" target="_blank" data-spm-data="1"><i class="icon icon-video"></i>男子睡觉被子屡遭老婆抢走 一气之下给老婆做了条玉米竿...</a><em class="com-num"><a data-clev="10220176" data-site="1" data-video-clicker="video3" data-vid="152315702" data-title="男子睡觉被子屡遭老婆抢走 一气之下给老婆做了条玉米竿被子" title="男子睡觉被子屡遭老婆抢走 一气之下给老婆做了条玉米竿被子" href="javascript:void(0)" target="_blank" data-spm-data="1">225699 播放</a></em></li>
-    
-        <li data-spm-type="resource" data-spm-data="2" data-spm-content="javascript:void(0)"><em class="sn sc">2
-        </em><a data-clev="10220177" data-site="2" data-video-clicker="video3" data-vid="152587735" data-title="妹妹先亲亲哥哥是否睡着 然后给哥哥做鬼脸一巴掌打过去霸气走开" title="妹妹先亲亲哥哥是否睡着 然后给哥哥做鬼脸一巴掌打过去霸气走开" href="javascript:void(0)" target="_blank" data-spm-data="2"><i class="icon icon-video"></i>妹妹先亲亲哥哥是否睡着 然后给哥哥做鬼脸一巴掌打过去...</a><em class="com-num"><a data-clev="10220177" data-site="1" data-video-clicker="video3" data-vid="152587735" data-title="妹妹先亲亲哥哥是否睡着 然后给哥哥做鬼脸一巴掌打过去霸气走开" title="妹妹先亲亲哥哥是否睡着 然后给哥哥做鬼脸一巴掌打过去霸气走开" href="javascript:void(0)" target="_blank" data-spm-data="2">224409 播放</a></em></li>
-    
-        <li data-spm-type="resource" data-spm-data="3" data-spm-content="javascript:void(0)"><em class="sn sc">3
-        </em><a data-clev="10220178" data-site="2" data-video-clicker="video3" data-vid="152466216" data-title="如同外星飞船降落！F-35B夜间着舰场面相当科幻" title="如同外星飞船降落！F-35B夜间着舰场面相当科幻" href="javascript:void(0)" target="_blank" data-spm-data="3"><i class="icon icon-video"></i>如同外星飞船降落！F-35B夜间着舰场面相当科幻</a><em class="com-num"><a data-clev="10220178" data-site="1" data-video-clicker="video3" data-vid="152466216" data-title="如同外星飞船降落！F-35B夜间着舰场面相当科幻" title="如同外星飞船降落！F-35B夜间着舰场面相当科幻" href="javascript:void(0)" target="_blank" data-spm-data="3">182250 播放</a></em></li>
-    
-        <li data-spm-type="resource" data-spm-data="4" data-spm-content="javascript:void(0)"><em class="sn ">4
-        </em><a data-clev="10220179" data-site="2" data-video-clicker="video3" data-vid="152234984" data-title="开始以为是温水煮兔子 结果是沐了个胡萝卜浴" title="开始以为是温水煮兔子 结果是沐了个胡萝卜浴" href="javascript:void(0)" target="_blank" data-spm-data="4"><i class="icon icon-video"></i>开始以为是温水煮兔子 结果是沐了个胡萝卜浴</a><em class="com-num"><a data-clev="10220179" data-site="1" data-video-clicker="video3" data-vid="152234984" data-title="开始以为是温水煮兔子 结果是沐了个胡萝卜浴" title="开始以为是温水煮兔子 结果是沐了个胡萝卜浴" href="javascript:void(0)" target="_blank" data-spm-data="4">178160 播放</a></em></li>
-    
-        <li data-spm-type="resource" data-spm-data="5" data-spm-content="javascript:void(0)"><em class="sn ">5
-        </em><a data-clev="10220180" data-site="2" data-video-clicker="video3" data-vid="152353987" data-title="监拍：宠物狗街头冲突 女主人遭200斤壮汉袭击 肩膀脱臼" title="监拍：宠物狗街头冲突 女主人遭200斤壮汉袭击 肩膀脱臼" href="javascript:void(0)" target="_blank" data-spm-data="5"><i class="icon icon-video"></i>监拍：宠物狗街头冲突 女主人遭200斤壮汉袭击 肩膀...</a><em class="com-num"><a data-clev="10220180" data-site="1" data-video-clicker="video3" data-vid="152353987" data-title="监拍：宠物狗街头冲突 女主人遭200斤壮汉袭击 肩膀脱臼" title="监拍：宠物狗街头冲突 女主人遭200斤壮汉袭击 肩膀脱臼" href="javascript:void(0)" target="_blank" data-spm-data="5">175577 播放</a></em></li>
-    
-        <li data-spm-type="resource" data-spm-data="6" data-spm-content="javascript:void(0)"><em class="sn ">6
-        </em><a data-clev="10220181" data-site="2" data-video-clicker="video3" data-vid="152351642" data-title="女子无手无脚模仿外星虫子蹦蹦跳跳 结果下一秒就翻车了" title="女子无手无脚模仿外星虫子蹦蹦跳跳 结果下一秒就翻车了" href="javascript:void(0)" target="_blank" data-spm-data="6"><i class="icon icon-video"></i>女子无手无脚模仿外星虫子蹦蹦跳跳 结果下一秒就翻车了</a><em class="com-num"><a data-clev="10220181" data-site="1" data-video-clicker="video3" data-vid="152351642" data-title="女子无手无脚模仿外星虫子蹦蹦跳跳 结果下一秒就翻车了" title="女子无手无脚模仿外星虫子蹦蹦跳跳 结果下一秒就翻车了" href="javascript:void(0)" target="_blank" data-spm-data="6">149161 播放</a></em></li>
-    
-    </ul>
-</div>
-
-
-<div class="sn-list sn-rank2" style="display: none;" data-spm="hotvideo-week">
-    <ul>
-    
-        <li data-spm-type="resource" data-spm-data="1" data-spm-content="javascript:void(0)"><em class="sn sc">1</em>
-            <a data-clev="10220182" data-site="2" data-video-clicker="video3" data-vid="151945408" data-title="搞笑！美女机场排队时想上厕所，留下一只拖鞋替自己排队！" title="搞笑！美女机场排队时想上厕所，留下一只拖鞋替自己排队！" href="javascript:void(0)" target="_blank" data-spm-data="1"><i class="icon icon-video"></i>搞笑！美女机场排队时想上厕所，留下一只拖鞋替自己排队...</a><em class="com-num"><a data-clev="10220182" data-site="1e" data-video-clicker="video3" data-vid="151945408" data-title="搞笑！美女机场排队时想上厕所，留下一只拖鞋替自己排队！" title="搞笑！美女机场排队时想上厕所，留下一只拖鞋替自己排队！" href="javascript:void(0)" target="_blank" data-spm-data="1">1003937 播放</a></em></li>
-    
-        <li data-spm-type="resource" data-spm-data="2" data-spm-content="javascript:void(0)"><em class="sn sc">2</em>
-            <a data-clev="10220183" data-site="2" data-video-clicker="video3" data-vid="152199428" data-title="美女坐凳子遭人“调戏”一怒之下打掉熊头 没想到竟同行两人赶紧握手言和" title="美女坐凳子遭人“调戏”一怒之下打掉熊头 没想到竟同行两人赶紧握手言和" href="javascript:void(0)" target="_blank" data-spm-data="2"><i class="icon icon-video"></i>美女坐凳子遭人“调戏”一怒之下打掉熊头 没想到竟同行两...</a><em class="com-num"><a data-clev="10220183" data-site="1e" data-video-clicker="video3" data-vid="152199428" data-title="美女坐凳子遭人“调戏”一怒之下打掉熊头 没想到竟同行两人赶紧握手言和" title="美女坐凳子遭人“调戏”一怒之下打掉熊头 没想到竟同行两人赶紧握手言和" href="javascript:void(0)" target="_blank" data-spm-data="2">852859 播放</a></em></li>
-    
-        <li data-spm-type="resource" data-spm-data="3" data-spm-content="javascript:void(0)"><em class="sn sc">3</em>
-            <a data-clev="10220184" data-site="2" data-video-clicker="video3" data-vid="151578862" data-title="太难了！哥哥哄妹妹睡觉却坚持不住自己先睡着了 网友：大尿不湿哄小尿不湿" title="太难了！哥哥哄妹妹睡觉却坚持不住自己先睡着了 网友：大尿不湿哄小尿不湿" href="javascript:void(0)" target="_blank" data-spm-data="3"><i class="icon icon-video"></i>太难了！哥哥哄妹妹睡觉却坚持不住自己先睡着了 网友：...</a><em class="com-num"><a data-clev="10220184" data-site="1e" data-video-clicker="video3" data-vid="151578862" data-title="太难了！哥哥哄妹妹睡觉却坚持不住自己先睡着了 网友：大尿不湿哄小尿不湿" title="太难了！哥哥哄妹妹睡觉却坚持不住自己先睡着了 网友：大尿不湿哄小尿不湿" href="javascript:void(0)" target="_blank" data-spm-data="3">742161 播放</a></em></li>
-    
-        <li data-spm-type="resource" data-spm-data="4" data-spm-content="javascript:void(0)"><em class="sn ">4</em>
-            <a data-clev="10220185" data-site="2" data-video-clicker="video3" data-vid="151788962" data-title="这才是亲生的！爸爸抱着儿子吃烤串 不给儿子吃算了还把儿子头转朝另一边" title="这才是亲生的！爸爸抱着儿子吃烤串 不给儿子吃算了还把儿子头转朝另一边" href="javascript:void(0)" target="_blank" data-spm-data="4"><i class="icon icon-video"></i>这才是亲生的！爸爸抱着儿子吃烤串 不给儿子吃算了还把...</a><em class="com-num"><a data-clev="10220185" data-site="1e" data-video-clicker="video3" data-vid="151788962" data-title="这才是亲生的！爸爸抱着儿子吃烤串 不给儿子吃算了还把儿子头转朝另一边" title="这才是亲生的！爸爸抱着儿子吃烤串 不给儿子吃算了还把儿子头转朝另一边" href="javascript:void(0)" target="_blank" data-spm-data="4">625636 播放</a></em></li>
-    
-        <li data-spm-type="resource" data-spm-data="5" data-spm-content="javascript:void(0)"><em class="sn ">5</em>
-            <a data-clev="10220186" data-site="2" data-video-clicker="video3" data-vid="151716590" data-title="牛撒娇起来拖拉机都拉不回来 网友;人家用的是牛力你的只是马力" title="牛撒娇起来拖拉机都拉不回来 网友;人家用的是牛力你的只是马力" href="javascript:void(0)" target="_blank" data-spm-data="5"><i class="icon icon-video"></i>牛撒娇起来拖拉机都拉不回来 网友;人家用的是牛力你的...</a><em class="com-num"><a data-clev="10220186" data-site="1e" data-video-clicker="video3" data-vid="151716590" data-title="牛撒娇起来拖拉机都拉不回来 网友;人家用的是牛力你的只是马力" title="牛撒娇起来拖拉机都拉不回来 网友;人家用的是牛力你的只是马力" href="javascript:void(0)" target="_blank" data-spm-data="5">609570 播放</a></em></li>
-    
-        <li data-spm-type="resource" data-spm-data="6" data-spm-content="javascript:void(0)"><em class="sn ">6</em>
-            <a data-clev="10220187" data-site="2" data-video-clicker="video3" data-vid="151491380" data-title="女孩要出去玩，男友不放心现场为其卸妆从鼻子抽出的东西很瘆人！" title="女孩要出去玩，男友不放心现场为其卸妆从鼻子抽出的东西很瘆人！" href="javascript:void(0)" target="_blank" data-spm-data="6"><i class="icon icon-video"></i>女孩要出去玩，男友不放心现场为其卸妆从鼻子抽出的东西...</a><em class="com-num"><a data-clev="10220187" data-site="1e" data-video-clicker="video3" data-vid="151491380" data-title="女孩要出去玩，男友不放心现场为其卸妆从鼻子抽出的东西很瘆人！" title="女孩要出去玩，男友不放心现场为其卸妆从鼻子抽出的东西很瘆人！" href="javascript:void(0)" target="_blank" data-spm-data="6">598303 播放</a></em></li>
-    
-    </ul>
-</div>
-</div>
         </div>
         <div class="godR" data-role="god_side">
         </div>
     </div>
 </div>
-<div data-role='most-site' class="contentB area clearfix">
-    <div class="title-mod" data-spm="video-nav"><span class="tt"><a href="http://tv.sohu.com/ugc/eyes/" target="_blank">时事</a></span></div>
-    <div class="video-scroll">
-        <div class="video-scroll-con">
-            <div class="video-scroll-box">
-                <div class="main left" data-video-wrapper='video2' data-spm="video-focus">
-                    <div class="video-focusA"><a data-clev="10220133" data-video-clicker='video3' data-vid="153956654" data-title="深圳城中村拆除重建 或将诞生1878个亿万富翁" data-site="2" href="javascript:void(0)" target="_blank" title='深圳城中村拆除重建 或将诞生1878个亿万富翁'><span class="pic"><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload_2_1.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_410,h_230,g_faces/c_cut,x_42,y_0,w_540,h_360/os/news/efee939fa7a1a963c0fde61393b3d582.jpg" alt=""></span><span class="video-txt">深圳城中村拆除重建 或将诞生1878个亿万富翁</span><i class="icon icon-video"></i></a></div>
-                </div>
-                <div class="sidebar right" data-spm="video-list">
-                    <div data-video-box="0" class="video-list clearfix" style="display:block;">
-                        <ul>
-                            <li class=""><a data-spm-strict="true" data-clev="10220134" data-video-clicker='video3' data-vid="153942073" data-title="孟晚舟案开始实质性审理 再次出庭面带笑容" data-site="2" href="javascript:void(0)" target="_blank" title='孟晚舟案开始实质性审理 再次出庭面带笑容'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/24/7/43/MTAwMTE0XzE1NjkyODIxOTQ2MjVfMTUzOTQyMDczX3VnY3ZjdXQ=.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153942073" class="linear-txt"></em></span><span class="des">孟晚舟案开始实质性审理 再次出庭面带笑容</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220135" data-video-clicker='video3' data-vid="153528294" data-title="奶奶带孙子服装店试衣 孩子险被两妇女拽走" data-site="2" href="javascript:void(0)" target="_blank" title='奶奶带孙子服装店试衣 孩子险被两妇女拽走'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_23,y_0,w_540,h_360/os/news/4f2ad0057e04a008b8499dcf25ad9b71.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153528294" class="linear-txt"></em></span><span class="des">奶奶带孙子服装店试衣 孩子险被两妇女拽走</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220136" data-video-clicker='video3' data-vid="153939535" data-title="租房留狗屎女网红现身打扫 已道歉与房东协商" data-site="2" href="javascript:void(0)" target="_blank" title='租房留狗屎女网红现身打扫 已道歉与房东协商'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/24/7/20/MTAwMTE0XzE1NjkyODA4NDc4NjRfMTUzOTM5NTM1X3VnY3ZjdXQ=.png" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153939535" class="linear-txt"></em></span><span class="des">租房留狗屎女网红现身打扫 已道歉与房东协商</span><i class="icon icon-video"></i></a></li>
-                            <li class="end"><a data-spm-strict="true" data-clev="10220137" data-video-clicker='video3' data-vid="153969933" data-title="女子考验男友报假警称手机被抢 男友报警举报" data-site="2" href="javascript:void(0)" target="_blank" title='女子考验男友报假警称手机被抢 男友报警举报'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/24/11/4/MTAwMTE0XzE1NjkyOTQyNjk5NTBfMTUzOTY5OTMzX3VnY3ZjdXQ=.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153969933" class="linear-txt"></em></span><span class="des">女子考验男友报假警称手机被抢 男友报警举报</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220138" data-video-clicker='video3' data-vid="153875638" data-title="一家11人半月内结婚离婚23次 亲家母都不放过" data-site="2" href="javascript:void(0)" target="_blank" title='一家11人半月内结婚离婚23次 亲家母都不放过'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/23/18/43/MTAwMTE0XzE1NjkyMzU0MTEyNjdfMTUzODc1NjM4X3VnY3ZjdXQ=.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153875638" class="linear-txt"></em></span><span class="des">一家11人半月内结婚离婚23次 亲家母都不放过</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220139" data-video-clicker='video3' data-vid="153945452" data-title="自媒体用哭房女视频被索赔 当事人：一时冲动" data-site="2" href="javascript:void(0)" target="_blank" title='自媒体用哭房女视频被索赔 当事人：一时冲动'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/24/8/9/MTAwMTE0XzE1NjkyODM3NTUwODdfMTUzOTQ1NDUyX3VnY3ZjdXQ=.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153945452" class="linear-txt"></em></span><span class="des">自媒体用哭房女视频被索赔 当事人：一时冲动</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220140" data-video-clicker='video3' data-vid="153949649" data-title="九寨沟景区9月27日将恢复开园 拟开放85%区域" data-site="2" href="javascript:void(0)" target="_blank" title='九寨沟景区9月27日将恢复开园 拟开放85%区域'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/24/8/34/MTAwMTE0XzE1NjkyODUyODg3ODVfMTUzOTQ5NjQ5X3VnY3ZjdXQ=.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153949649" class="linear-txt"></em></span><span class="des">九寨沟景区9月27日将恢复开园 拟开放85%区域</span><i class="icon icon-video"></i></a></li>
-                            <li class="end"><a data-spm-strict="true" data-clev="10220141" data-video-clicker='video3' data-vid="153943526" data-title="屋主外出家中住下小偷 抽烟睡觉做卫生吹空调" data-site="2" href="javascript:void(0)" target="_blank" title='屋主外出家中住下小偷 抽烟睡觉做卫生吹空调'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_40,y_0,w_540,h_360/os/news/7c007cf62377dc28bec9883c76902c6b.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153943526" class="linear-txt"></em></span><span class="des">屋主外出家中住下小偷 抽烟睡觉做卫生吹空调</span><i class="icon icon-video"></i></a></li>
-                        </ul>
-                    </div>
-                    <div data-video-box="1" class="video-list clearfix">
-                        <ul>
-                            <li class=""><a data-spm-strict="true" data-clev="10220142" data-video-clicker='video3' data-vid="153062259" data-title="妻子患抑郁症捐光55万 慈善机构：很难退回" data-site="2" href="javascript:void(0)" target="_blank" title='妻子患抑郁症捐光55万 慈善机构：很难退回'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_70,y_0,w_468,h_360/os/news/6d7764e659c39d34b05a7f4f3a1aa584.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153062259" class="linear-txt"></em></span><span class="des">妻子患抑郁症捐光55万 慈善机构：很难退回</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220143" data-video-clicker='video3' data-vid="153805114" data-title="女子患怪病眼泪变水晶 每天50颗医生无法确诊" data-site="2" href="javascript:void(0)" target="_blank" title='女子患怪病眼泪变水晶 每天50颗医生无法确诊'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/23/9/31/MTAwMTE0XzE1NjkyMDIzMTY0ODFfMTUzODA1MTE0X3VnY3ZjdXQ=.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153805114" class="linear-txt"></em></span><span class="des">女子患怪病眼泪变水晶 每天50颗医生无法确诊</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220144" data-video-clicker='video3' data-vid="153698699" data-title="胖男孩落水不沉终获救 网友：肥而不“溺”" data-site="2" href="javascript:void(0)" target="_blank" title='胖男孩落水不沉终获救 网友：肥而不“溺”'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/22/15/13/MTAwMTE0XzE1NjkxMzY0MDQzNzhfMTUzNjk4Njk5X3VnY3ZjdXQ=.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153698699" class="linear-txt"></em></span><span class="des">胖男孩落水不沉终获救 网友：肥而不“溺”</span><i class="icon icon-video"></i></a></li>
-                            <li class="end"><a data-spm-strict="true" data-clev="10220145" data-video-clicker='video3' data-vid="153797718" data-title="南非劫匪持枪抢成箱现金 与店员发生激烈枪战" data-site="2" href="javascript:void(0)" target="_blank" title='南非劫匪持枪抢成箱现金 与店员发生激烈枪战'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/23/8/16/MTAwMTE0XzE1NjkxOTc4MTI4MTVfMTUzNzk3NzE4X3VnY3ZjdXQ=.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153797718" class="linear-txt"></em></span><span class="des">南非劫匪持枪抢成箱现金 与店员发生激烈枪战</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220146" data-video-clicker='video3' data-vid="153784867" data-title="中国首只克隆猫“大蒜”回家 主人：盼像以前" data-site="2" href="javascript:void(0)" target="_blank" title='中国首只克隆猫“大蒜”回家 主人：盼像以前'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_56,y_0,w_567,h_378/os/news/3cc3247c11a9b360993844ce81b5a432.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153784867" class="linear-txt"></em></span><span class="des">中国首只克隆猫“大蒜”回家 主人：盼像以前</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220147" data-video-clicker='video3' data-vid="153709395" data-title="男子枣庄持刀抢劫后续 与女友分手轻生想坐牢" data-site="2" href="javascript:void(0)" target="_blank" title='男子枣庄持刀抢劫后续 与女友分手轻生想坐牢'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/os/news/e8de9b1d4b672dc39b2a14fd7b1b236.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153709395" class="linear-txt"></em></span><span class="des">男子枣庄持刀抢劫后续 与女友分手轻生想坐牢</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220148" data-video-clicker='video3' data-vid="153724383" data-title="女司机与保安互殴占下风 喊来亲友上演全武行" data-site="2" href="javascript:void(0)" target="_blank" title='女司机与保安互殴占下风 喊来亲友上演全武行'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_0,y_38,w_655,h_436/os/news/ba7f5d85d857263f280a8881177ea45f.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153724383" class="linear-txt"></em></span><span class="des">女司机与保安互殴占下风 喊来亲友上演全武行</span><i class="icon icon-video"></i></a></li>
-                            <li class="end"><a data-spm-strict="true" data-clev="10220149" data-video-clicker='video3' data-vid="153523908" data-title="女顾客疑遭华裔按摩师性侵90分钟 至瘫痪昏厥" data-site="2" href="javascript:void(0)" target="_blank" title='女顾客疑遭华裔按摩师性侵90分钟 至瘫痪昏厥'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_0,y_0,w_531,h_354/os/news/cff80a7f94a9353c306b60804cd40dd.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153523908" class="linear-txt"></em></span><span class="des">女顾客疑遭华裔按摩师性侵90分钟 至瘫痪昏厥</span><i class="icon icon-video"></i></a></li>
-                        </ul>
-                    </div>
-                    <div data-video-box="2" class="video-list clearfix">
-                        <ul>
-                            <li class=""><a data-spm-strict="true" data-clev="10220150" data-video-clicker='video3' data-vid="153666127" data-title="深圳推出全新国庆版灯光秀 流光溢彩美轮美奂" data-site="2" href="javascript:void(0)" target="_blank" title='深圳推出全新国庆版灯光秀 流光溢彩美轮美奂'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/os/news/d58d41c89d89118a2d94669c7da2c9f6.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153666127" class="linear-txt"></em></span><span class="des">深圳推出全新国庆版灯光秀 流光溢彩美轮美奂</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220151" data-video-clicker='video3' data-vid="153535573" data-title="两家眼镜店 因音响问题大打出手" data-site="2" href="javascript:void(0)" target="_blank" title='两家眼镜店 因音响问题大打出手'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/21/12/56/MTAwMTE0XzE1NjkwNDE3NzExMjRfMTUzNTM1NTczX3VnY3ZjdXQ=.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153535573" class="linear-txt"></em></span><span class="des">两家眼镜店 因音响问题大打出手</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220152" data-video-clicker='video3' data-vid="153708189" data-title="妻子打麻将4岁孩子独自在家 男子无奈报警" data-site="2" href="javascript:void(0)" target="_blank" title='妻子打麻将4岁孩子独自在家 男子无奈报警'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/22/16/54/MTAwMTE0XzE1NjkxNDI0NjQxMTFfMTUzNzA4MTg5X3VnY3ZjdXQ=.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153708189" class="linear-txt"></em></span><span class="des">妻子打麻将4岁孩子独自在家 男子无奈报警</span><i class="icon icon-video"></i></a></li>
-                            <li class="end"><a data-spm-strict="true" data-clev="10220153" data-video-clicker='video3' data-vid="153675022" data-title="“任性姐妹”拍视频挑衅交警 结果引起舒适" data-site="2" href="javascript:void(0)" target="_blank" title='“任性姐妹”拍视频挑衅交警 结果引起舒适'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_0,y_26,w_485,h_323/os/news/3b2d0be3c04bff9b5dcca5a95e6fcccb.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153675022" class="linear-txt"></em></span><span class="des">“任性姐妹”拍视频挑衅交警 结果引起舒适</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220154" data-video-clicker='video3' data-vid="153704385" data-title="快递员弄丢50万元珠宝包裹 民警调监控寻回" data-site="2" href="javascript:void(0)" target="_blank" title='快递员弄丢50万元珠宝包裹 民警调监控寻回'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/22/16/21/MTAwMTE0XzE1NjkxNDA0ODU1NzBfMTUzNzA0Mzg1X3VnY3ZjdXQ=.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153704385" class="linear-txt"></em></span><span class="des">快递员弄丢50万元珠宝包裹 民警调监控寻回</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220155" data-video-clicker='video3' data-vid="153498005" data-title="女子吃双汇火腿肠吃出一嘴活虫 厂家：赔100元" data-site="2" href="javascript:void(0)" target="_blank" title='女子吃双汇火腿肠吃出一嘴活虫 厂家：赔100元'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/21/8/7/MTAwMTE0XzE1NjkwMjQ0NTM1ODZfMTUzNDk4MDA1X3VnY3ZjdXQ=.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153498005" class="linear-txt"></em></span><span class="des">女子吃双汇火腿肠吃出一嘴活虫 厂家：赔100元</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220156" data-video-clicker='video3' data-vid="153571520" data-title="小胖在班晚会上激情热舞 动作魔性引同学惊呼" data-site="2" href="javascript:void(0)" target="_blank" title='小胖在班晚会上激情热舞 动作魔性引同学惊呼'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/os/news/dbb3787ed15efd0f5a16eccc55c3c8c3.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153571520" class="linear-txt"></em></span><span class="des">小胖在班晚会上激情热舞 动作魔性引同学惊呼</span><i class="icon icon-video"></i></a></li>
-                            <li class="end"><a data-spm-strict="true" data-clev="10220157" data-video-clicker='video3' data-vid="153569073" data-title="2村民坐氢气球打松籽 飞上天后越飘越高" data-site="2" href="javascript:void(0)" target="_blank" title='2村民坐氢气球打松籽 飞上天后越飘越高'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/os/news/773a0979c2a1fa8ba7b9b4dcbc1810c8.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153569073" class="linear-txt"></em></span><span class="des">2村民坐氢气球打松籽 飞上天后越飘越高</span><i class="icon icon-video"></i></a></li>
-                        </ul>
-                    </div>
-                    <div data-video-box="3" class="video-list clearfix">
-                        <ul>
-                            <li class=""><a data-spm-strict="true" data-clev="10220158" data-video-clicker='video3' data-vid="153564249" data-title="男子冲进加油站乱砸 12秒后被一群壮汉制服" data-site="2" href="javascript:void(0)" target="_blank" title='男子冲进加油站乱砸 12秒后被一群壮汉制服'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/os/news/54767e53322785530194d30a1e2ae655.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153564249" class="linear-txt"></em></span><span class="des">男子冲进加油站乱砸 12秒后被一群壮汉制服</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220159" data-video-clicker='video3' data-vid="153567218" data-title="湖北1岁娃地铁站台小便 父母举动获赞无数" data-site="2" href="javascript:void(0)" target="_blank" title='湖北1岁娃地铁站台小便 父母举动获赞无数'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_129,y_3,w_522,h_401/os/news/bfa2b084defe4927be40da536894f095.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153567218" class="linear-txt"></em></span><span class="des">湖北1岁娃地铁站台小便 父母举动获赞无数</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220160" data-video-clicker='video3' data-vid="153567420" data-title="长春一老人公交车上坐人身上 只因抢座没抢过" data-site="2" href="javascript:void(0)" target="_blank" title='长春一老人公交车上坐人身上 只因抢座没抢过'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_0,y_-3,w_426,h_284/os/news/c3d125e022b4582f1205393cb9301d50.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153567420" class="linear-txt"></em></span><span class="des">长春一老人公交车上坐人身上 只因抢座没抢过</span><i class="icon icon-video"></i></a></li>
-                            <li class="end"><a data-spm-strict="true" data-clev="10220161" data-video-clicker='video3' data-vid="153550185" data-title="超市女顾客向男子吐口水 被其一巴掌反击" data-site="2" href="javascript:void(0)" target="_blank" title='超市女顾客向男子吐口水 被其一巴掌反击'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_0,y_0,w_400,h_267/os/news/eeb2ecd635f438798e98d8edac1f760b.gif" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153550185" class="linear-txt"></em></span><span class="des">超市女顾客向男子吐口水 被其一巴掌反击</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220162" data-video-clicker='video3' data-vid="153378125" data-title="男子手举输液吊瓶单手骑车 网友：拿命骑车" data-site="2" href="javascript:void(0)" target="_blank" title='男子手举输液吊瓶单手骑车 网友：拿命骑车'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/20/12/24/MTAwMTE0XzE1Njg5NTM0NjAyMjRfMTUzMzc4MTI1X3VnY3ZjdXQ=.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153378125" class="linear-txt"></em></span><span class="des">男子手举输液吊瓶单手骑车 网友：拿命骑车</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220163" data-video-clicker='video3' data-vid="153275424" data-title="2女子夜宵后随地小便被制止 殴打环卫夫妻" data-site="2" href="javascript:void(0)" target="_blank" title='2女子夜宵后随地小便被制止 殴打环卫夫妻'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://e3f49eaa46b57.cdn.sohucs.com/c_pad,w_160,h_90,blur_80/2019/9/19/19/24/MTAwMTE0XzE1Njg4OTIyODA5NDlfMTUzMjc1NDI0X3VnY3ZjdXQ=.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153275424" class="linear-txt"></em></span><span class="des">2女子夜宵后随地小便被制止 殴打环卫夫妻</span><i class="icon icon-video"></i></a></li>
-                            <li class=""><a data-spm-strict="true" data-clev="10220164" data-video-clicker='video3' data-vid="153258610" data-title="30万跑车停放天桥下 结果4个车轮全被偷" data-site="2" href="javascript:void(0)" target="_blank" title='30万跑车停放天桥下 结果4个车轮全被偷'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/os/news/6753af47621440a8f843cd79ba42929d.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153258610" class="linear-txt"></em></span><span class="des">30万跑车停放天桥下 结果4个车轮全被偷</span><i class="icon icon-video"></i></a></li>
-                            <li class="end"><a data-spm-strict="true" data-clev="10220165" data-video-clicker='video3' data-vid="153276634" data-title="SUV闹市区连撞3辆电动车 致1死3伤" data-site="2" href="javascript:void(0)" target="_blank" title='SUV闹市区连撞3辆电动车 致1死3伤'><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="http://29e5534ea20a8.cdn.sohucs.com/c_fill,w_155,h_103,g_faces/c_cut,x_42,y_0,w_270,h_180/os/news/ebddb2909049a47b26507d8f1ef29266.jpg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em data-role="need-play-num" data-vid="153276634" class="linear-txt"></em></span><span class="des">SUV闹市区连撞3辆电动车 致1死3伤</span><i class="icon icon-video"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="video-btns"><a class="btnl" href="javascript:void(0)"></a><a class="btnr" href="javascript:void(0)"></a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 <div class="god-wrapper area clearfix" data-role="god_column">
 </div>
 
-
+<!--军事文化-->
 <div class="content-military-culture area public clearfix" data-role="military-culture-section">
     <div class="main left">
-        <div class="title-mod" data-spm="mil-cul-nav">
-        <span class="tt"><a href="http://mil.sohu.com/" target="_blank">军事</a>
-        <em class="dot"></em><a href="http://cul.sohu.com/" target="_blank">民生</a></span></div>
+        <div class="title-mod" data-spm="mil-cul-nav"><span class="tt"><a href="http://mil.sohu.com/" target="_blank">军事</a><em class="dot"></em><a href="http://cul.sohu.com/" target="_blank">文化</a></span></div>
         <div class="main-modA clear">
             <div class="main-left left" data-spm="mil-cul-pics">
                 <div class="video-focusB"><a data-param="_f=index_chan08mil_culfocus_0" href="http://www.sohu.com/a/343006142_652253" target="_blank" title="轰-6“魔改”不断，众多现代化科技元素加入，不能隐身反成优势？"><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload_2_1.png" data-src="//5b0988e595225.cdn.sohucs.com/c_fill,w_410,h_205,g_faces/images/20190924/614d9b371f514d5fb053b9cbbe5e63c8.jpeg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em class="linear-txt">轰-6“魔改”不断，众多现代化科技元素加入，不能隐身反成优势？</em></span></a></div>
@@ -513,12 +619,15 @@
             <div class="main-right right" data-spm="mil-cul-news">
                     <div class="list16">
                         <ul>
-                          <li><a data-param="_f=index_chan08mil_culnews_0" href="//www.sohu.com/a/342989947_123753" target="_blank" title='青瓦台：韩美领导人会晤 称“愿改变与朝鲜关系”'>
+
+                                    <li><a data-param="_f=index_chan08mil_culnews_0" href="//www.sohu.com/a/342989947_123753" target="_blank" title='青瓦台：韩美领导人会晤 称“愿改变与朝鲜关系”'>
                                         <strong>青瓦台：韩美领导人会晤 称“愿改变与朝鲜关系”</strong>
                                     </a></li>
-                          <li><a data-param="_f=index_chan08mil_culnews_1" href="//www.sohu.com/a/342995639_601259" target="_blank" title='伊朗“忍者”亮相本国阅兵式并表演忍术'>
+
+                                    <li><a data-param="_f=index_chan08mil_culnews_1" href="//www.sohu.com/a/342995639_601259" target="_blank" title='伊朗“忍者”亮相本国阅兵式并表演忍术'>
                                         伊朗“忍者”亮相本国阅兵式并表演忍术
                                     </a></li>
+
                                     <li><a data-param="_f=index_chan08mil_culnews_2" href="//www.sohu.com/a/343006617_114988" target="_blank" title='英、法、德发布联合声明：伊朗应为沙特石油设施遇袭负责'>
                                         英、法、德发布联合声明：伊朗应为沙特石油设施遇袭负责
                                     </a></li>
@@ -560,7 +669,7 @@
         </div>
         <div class="main-modB clearfix">
             <div class="main-left left">
-                <div class="titleLB" data-spm="cul-nav"><span class="tt"><a href="http://cul.sohu.com/" target="_blank">民生</a></span><span class="more"><a href="http://cul.sohu.com/" target="_blank">更多 &gt;</a></span></div>
+                <div class="titleLB" data-spm="cul-nav"><span class="tt"><a href="http://cul.sohu.com/" target="_blank">文化</a></span><span class="more"><a href="http://cul.sohu.com/" target="_blank">更多 &gt;</a></span></div>
                 <div class="list16" data-spm="cul-news">
                     <ul>
                             <li><a data-param="_f=index_chan08culnews_0" href="//www.sohu.com/a/342897726_123753" target="_blank" title='鸟也挑食！中国科学家揭晓麻雀选食不同高粱分子机制'>
@@ -1104,8 +1213,7 @@
 <!--时尚生活-->
 <div class="content-fashion-life area public clearfix" data-role="fashion-life-section">
     <div class="main left">
-        <div class="title-mod" data-spm="fashion-life-nav"><span class="tt"><a href="http://fashion.sohu.com/" target="_blank">人物</a>
-        <em class="dot"></em><a href="http://fashion.sohu.com/" target="_blank">文教</a></span></div>
+        <div class="title-mod" data-spm="fashion-life-nav"><span class="tt"><a href="http://fashion.sohu.com/" target="_blank">时尚</a><em class="dot"></em><a href="http://fashion.sohu.com/" target="_blank">生活</a></span></div>
         <div class="main-modA clear">
             <div class="main-left left" data-spm="fashion-life-pics">
                 <div class="video-focusB"><a data-param="_f=index_chan08fash_lifefocus_0" href="http://www.sohu.com/a/342987684_120236255" target="_blank" title="张天爱好身材就是任性！斜肩上衣配紧身牛仔裤性感迷人，真羡慕"><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload_2_1.png" data-src="//5b0988e595225.cdn.sohucs.com/c_fill,w_410,h_205,g_faces/images/20190924/e739e71409a84ab6a1ec29675ab8b274.jpeg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em class="linear-txt">张天爱好身材就是任性！斜肩上衣配紧身牛仔裤性感迷人，真羡慕</em></span></a></div>
@@ -1276,110 +1384,16 @@
 
 
     <div class="sidebar right">
-        <div data-writer="tech">
-
-
-
-<div class="modGRA bordR clearfix">
-    <div class="titleR" data-spm="side-mp2-nav"><a href="http://mp.sohu.com/profile?xpt=c29odW1waTllNGJqQHNvaHUuY29t&amp;spm=smpc.news-home.side-mp2-nav.1.1569310886967MiyZAgE" target="_blank" title="世界华人周刊" data-spm-data="1"><span class="tt">世界华人周刊</span></a></div>
-    <div data-spm="side-mp2-news">
-        
-        <div class="pic-text clearfix" data-spm-type="resource" data-spm-data="1" data-spm-content="a/336145033_616577">
-            <div class="pic">
-                <a data-psync="_f=index_chan08techrecom_0_0" href="http://www.sohu.com/a/336145033_616577?spm=smpc.news-home.side-mp2-news.1.1569310886967MiyZAgE" target="_blank" title="他砸碎了中国上百万件文物，获利数亿元，我们却无能为力" data-spm-data="1"><img src="//5b0988e595225.cdn.sohucs.com/c_fill,w_100,h_66,g_faces/images/20190824/5e7239f7b4794a089cb2e6b17a214913.jpeg" data-src="//5b0988e595225.cdn.sohucs.com/c_fill,w_100,h_66,g_faces/images/20190824/5e7239f7b4794a089cb2e6b17a214913.jpeg" alt="" data-processed="true"></a>
-            </div>
-            <h4><a data-psync="_f=index_chan08techrecom_0_0" href="http://www.sohu.com/a/336145033_616577?spm=smpc.news-home.side-mp2-news.1.1569310886967MiyZAgE" target="_blank" title="他砸碎了中国上百万件文物，获利数亿元，我们却无能为力" data-spm-data="1">他砸碎了中国上百万件文物，获利数亿元，我们却...</a></h4>
+        <div data-writer="tech"></div>
+        <div class="godR" data-role="god_side">
         </div>
-        
-        <div class="pic-text clearfix" data-spm-type="resource" data-spm-data="2" data-spm-content="a/335986173_616577">
-            <div class="pic">
-                <a data-psync="_f=index_chan08techrecom_0_1" href="http://www.sohu.com/a/335986173_616577?spm=smpc.news-home.side-mp2-news.2.1569310886967MiyZAgE" target="_blank" title="《小欢喜》黄磊示范家庭性教育： 对孩子的性教育，从尊重开始" data-spm-data="2"><img src="//5b0988e595225.cdn.sohucs.com/c_fill,w_100,h_66,g_faces/images/20190824/d5675a43c526419eb05e4adf6a9ecd0a.jpeg" data-src="//5b0988e595225.cdn.sohucs.com/c_fill,w_100,h_66,g_faces/images/20190824/d5675a43c526419eb05e4adf6a9ecd0a.jpeg" alt="" data-processed="true"></a>
-            </div>
-            <h4><a data-psync="_f=index_chan08techrecom_0_1" href="http://www.sohu.com/a/335986173_616577?spm=smpc.news-home.side-mp2-news.2.1569310886967MiyZAgE" target="_blank" title="《小欢喜》黄磊示范家庭性教育： 对孩子的性教育，从尊重开始" data-spm-data="2">《小欢喜》黄磊示范家庭性教育： 对孩子的性教育...</a></h4>
-        </div>
-        
-        <div class="pic-text clearfix" data-spm-type="resource" data-spm-data="3" data-spm-content="a/335934002_616577">
-            <div class="pic">
-                <a data-psync="_f=index_chan08techrecom_0_2" href="http://www.sohu.com/a/335934002_616577?spm=smpc.news-home.side-mp2-news.3.1569310886967MiyZAgE" target="_blank" title="奥巴马又捞钱！一场演讲赚300万，如今转行拍电影了" data-spm-data="3"><img src="//5b0988e595225.cdn.sohucs.com/c_fill,w_100,h_66,g_faces/images/20190823/6fd0b18ba539431081401d387fa98af9.jpeg" data-src="//5b0988e595225.cdn.sohucs.com/c_fill,w_100,h_66,g_faces/images/20190823/6fd0b18ba539431081401d387fa98af9.jpeg" alt="" data-processed="true"></a>
-            </div>
-            <h4><a data-psync="_f=index_chan08techrecom_0_2" href="http://www.sohu.com/a/335934002_616577?spm=smpc.news-home.side-mp2-news.3.1569310886967MiyZAgE" target="_blank" title="奥巴马又捞钱！一场演讲赚300万，如今转行拍电影了" data-spm-data="3">奥巴马又捞钱！一场演讲赚300万，如今转行拍...</a></h4>
-        </div>
-        
-    </div>
-</div>
-
-
-
-<div class="modGRA bordR clearfix">
-    <div class="titleR" data-spm="side-mp3-nav"><a href="http://mp.sohu.com/profile?xpt=c29odW1wMTFzamk5QHNvaHUuY29t&amp;spm=smpc.news-home.side-mp3-nav.1.1569310886967MiyZAgE" target="_blank" title="土逗公社" data-spm-data="1"><span class="tt">土逗公社</span></a></div>
-    <div data-spm="side-mp3-news">
-        
-        <div class="pic-text clearfix" data-spm-type="resource" data-spm-data="1" data-spm-content="a/167491740_550943">
-            <div class="pic">
-                <a data-psync="_f=index_chan08techrecom_1_0" href="http://www.sohu.com/a/167491740_550943?spm=smpc.news-home.side-mp3-news.1.1569310886967MiyZAgE" target="_blank" title="“公路商店”前主编，来聊聊被贩卖的亚文化" data-spm-data="1"><img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_100,h_66,g_faces/images/20170826/170de35786bf4adaab6e5834da550f42.jpeg" data-src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_100,h_66,g_faces/images/20170826/170de35786bf4adaab6e5834da550f42.jpeg" alt="" data-processed="true"></a>
-            </div>
-            <h4><a data-psync="_f=index_chan08techrecom_1_0" href="http://www.sohu.com/a/167491740_550943?spm=smpc.news-home.side-mp3-news.1.1569310886967MiyZAgE" target="_blank" title="“公路商店”前主编，来聊聊被贩卖的亚文化" data-spm-data="1">“公路商店”前主编，来聊聊被贩卖的亚文化</a></h4>
-        </div>
-        
-        <div class="pic-text clearfix" data-spm-type="resource" data-spm-data="2" data-spm-content="a/167236007_550943">
-            <div class="pic">
-                <a data-psync="_f=index_chan08techrecom_1_1" href="http://www.sohu.com/a/167236007_550943?spm=smpc.news-home.side-mp3-news.2.1569310886967MiyZAgE" target="_blank" title="军训公司“向钱看”：暴力与奴化如何承包青春" data-spm-data="2"><img src="http://img.mp.sohu.com/upload/20170825/79f467cec3a244179c330731628d263f_th.webp" data-src="http://img.mp.sohu.com/upload/20170825/79f467cec3a244179c330731628d263f_th.jpg" alt="" data-processed="true"></a>
-            </div>
-            <h4><a data-psync="_f=index_chan08techrecom_1_1" href="http://www.sohu.com/a/167236007_550943?spm=smpc.news-home.side-mp3-news.2.1569310886967MiyZAgE" target="_blank" title="军训公司“向钱看”：暴力与奴化如何承包青春" data-spm-data="2">军训公司“向钱看”：暴力与奴化如何承包青春</a></h4>
-        </div>
-        
-    </div>
-</div>
-
-
-
-<div class="modGRA bordR clearfix">
-    <div class="titleR" data-spm="side-mp4-nav"><a href="http://mp.sohu.com/profile?xpt=c29odXptdHR1bzhraHpAc29odS5jb20=&amp;spm=smpc.news-home.side-mp4-nav.1.1569310886967MiyZAgE" target="_blank" title="海报时尚网" data-spm-data="1"><span class="tt">海报时尚网</span></a></div>
-    <div data-spm="side-mp4-news">
-        
-        <div class="pic-text clearfix" data-spm-type="resource" data-spm-data="1" data-spm-content="a/336172261_162702">
-            <div class="pic">
-                <a data-psync="_f=index_chan08techrecom_2_0" href="http://www.sohu.com/a/336172261_162702?spm=smpc.news-home.side-mp4-news.1.1569310886967MiyZAgE" target="_blank" title="彩虹屁| 刘亦菲神仙落泪在上热搜，为什么有人连哭都那么美？" data-spm-data="1"><img src="//5b0988e595225.cdn.sohucs.com/c_fill,w_100,h_66,g_faces/images/20190824/6a8686890a2c4d269626a1700d9e1b2e.jpeg" data-src="//5b0988e595225.cdn.sohucs.com/c_fill,w_100,h_66,g_faces/images/20190824/6a8686890a2c4d269626a1700d9e1b2e.jpeg" alt="" data-processed="true"></a>
-            </div>
-            <h4><a data-psync="_f=index_chan08techrecom_2_0" href="http://www.sohu.com/a/336172261_162702?spm=smpc.news-home.side-mp4-news.1.1569310886967MiyZAgE" target="_blank" title="彩虹屁| 刘亦菲神仙落泪在上热搜，为什么有人连哭都那么美？" data-spm-data="1">彩虹屁| 刘亦菲神仙落泪在上热搜，为什么有人...</a></h4>
-        </div>
-        
-        <div class="pic-text clearfix" data-spm-type="resource" data-spm-data="2" data-spm-content="a/336141226_162702">
-            <div class="pic">
-                <a data-psync="_f=index_chan08techrecom_2_1" href="http://www.sohu.com/a/336141226_162702?spm=smpc.news-home.side-mp4-news.2.1569310886967MiyZAgE" target="_blank" title="讲真的| 萧亚轩40岁生日当天曝光恋24岁95后鲜肉，姐姐什么时候出书？" data-spm-data="2"><img src="//5b0988e595225.cdn.sohucs.com/c_fill,w_100,h_66,g_faces/images/20190824/e525c46b9aee4af689c5e64117fee4e5.jpeg" data-src="//5b0988e595225.cdn.sohucs.com/c_fill,w_100,h_66,g_faces/images/20190824/e525c46b9aee4af689c5e64117fee4e5.jpeg" alt="" data-processed="true"></a>
-            </div>
-            <h4><a data-psync="_f=index_chan08techrecom_2_1" href="http://www.sohu.com/a/336141226_162702?spm=smpc.news-home.side-mp4-news.2.1569310886967MiyZAgE" target="_blank" title="讲真的| 萧亚轩40岁生日当天曝光恋24岁95后鲜肉，姐姐什么时候出书？" data-spm-data="2">讲真的| 萧亚轩40岁生日当天曝光恋24岁9...</a></h4>
-        </div>
-        
-    </div>
-</div>
-
-
-</div>
-        <div class="godR" data-role="god_side" data-god-id="15906" data-monitorkey="0746da16d36a088ea_0_0">
-
-
-
-<!-- <a href="http://corp.sohu.com/s2007/privacy/" target="_blank" class="got-i-icon"></a> -->
-<span class="god-mark">广告</span>
-
-
-<a class="swf-top" href="http://hkeg.jyjryz.com/mall/fenjiu.htm?gzid=pc5" target="_blank"></a>
-
-<div>
-    
-    <img src="//643108e7617ef.cdn.sohucs.com/f3e0c7691fbb4721ab10d4b3d29257be.jpg">
-    
-</div>
-</div>
     </div>
 </div>
 
 <!--房产汽车-->
 <div class="content-focus-auto area public clearfix">
     <div class="main left">
-        <div class="title-mod" data-spm="focus-auto-nav"><span class="tt">
-        <a href="//www.focus.cn" target="_blank">国际</a></span></div>
+        <div class="title-mod" data-spm="focus-auto-nav"><span class="tt"><a href="//www.focus.cn" target="_blank">房产</a><em class="dot"></em><a href="http://auto.sohu.com/" target="_blank">汽车</a></span></div>
         <div class="main-modA clear">
             <div class="main-left left">
                 <div class="video-focusB" data-role="focus-auto">
@@ -1397,62 +1411,7 @@
                     <li class="end"><a data-param="_f=index_chan08house_carfocus_3" href="//www.sohu.com/a/342941686_383324" target="_blank"><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png" data-src="//5b0988e595225.cdn.sohucs.com/c_fill,w_130,h_86,g_faces/images/20190924/b9f293879df94d09b9c89f10485a1e24.jpeg" alt=""><span class="txt">和VE-1师出同门的它有何独到之处？ ...</span></a></li>
                 </div>
             </div>
-           <div data-role="focus-auto-main" class="main-right right" data-spm="focus-auto-news">
-<div class="list16">
-    <ul>
-        
-            <li><a data-pos="focus_be_pos" data-idea="75206923" data-psync="_f=index_chan08house_carnews_0" title="最低1.7w+!上千套限价房源 9月苏州6大区开盘风暴来袭" href="http://suzhou.focus.cn/zixun/18415428.html" target="_blank" data-spm-data="1">
-                <strong>最低1.7w+!上千套限价房源 9月苏州6大区开盘风暴来袭</strong>
-            </a></li>
-        
-            <li><a data-pos="focus_be_pos" data-idea="75206914" data-psync="_f=index_chan08house_carnews_1" title="大中环时代,北苏州的下一个高光时刻即将来临!禹洲嘉誉风华" href="http://suzhou.focus.cn/zixun/18326582.html" target="_blank" data-spm-data="2">
-                大中环时代,北苏州的下一个高光时刻即将来临!禹洲嘉誉风华
-            </a></li>
-        
-            <li><a data-pos="focus_be_pos" data-idea="75658764" data-psync="_f=index_chan08house_carnews_2" title="中赫玫瑰园/苏州真正交通“大动脉”!多重交通选择 更快一步!" href="http://suzhou.focus.cn/zixun/18388375.html" target="_blank" data-spm-data="3">
-                中赫玫瑰园/苏州真正交通“大动脉”!多重交通选择 更快一步!
-            </a></li>
-        
-            <li><a data-pos="focus_be_pos" data-idea="75716224" data-psync="_f=index_chan08house_carnews_3" title="重磅!江苏省自贸区设立!范围已确定!" href="http://suzhou.focus.cn/zixun/18390490.html" target="_blank" data-spm-data="4">
-                重磅!江苏省自贸区设立!范围已确定!
-            </a></li>
-        
-            <li><a data-pos="focus_be_pos" data-idea="75716194" data-psync="_f=index_chan08house_carnews_4" title="重磅!苏州挂出8宗涉宅地块!园区、姑苏、相城、吴中、新区全有" href="http://suzhou.focus.cn/zixun/18317380.html" target="_blank" data-spm-data="5">
-                重磅!苏州挂出8宗涉宅地块!园区、姑苏、相城、吴中、新区全有
-            </a></li>
-        
-    </ul>
-</div>
-
-
-<div class="list16">
-    <ul>
-        
-            <li><a data-pos="focus_be_pos" data-idea="75696386" data-psync="_f=index_chan08house_carnews_5" title="10年湖西10年湖东!园区未来发展在哪里?" href="http://suzhou.focus.cn/zixun/18388895.html" target="_blank" data-spm-data="6">
-                <strong>10年湖西10年湖东!园区未来发展在哪里?</strong>
-            </a></li>
-        
-            <li><a data-pos="focus_be_pos" data-idea="75206867" data-psync="_f=index_chan08house_carnews_6" title="未来或将卖4W?这个“跌宕起伏”的板块要逆袭!" href="http://suzhou.focus.cn/zixun/18299954.html" target="_blank" data-spm-data="7">
-                未来或将卖4W?这个“跌宕起伏”的板块要逆袭!
-            </a></li>
-        
-            <li><a data-pos="focus_be_pos" data-idea="75206863" data-psync="_f=index_chan08house_carnews_7" title="浒关正式告别商业愁!五大商业最新进度曝光~" href="http://suzhou.focus.cn/zixun/18415319.html" target="_blank" data-spm-data="8">
-                浒关正式告别商业愁!五大商业最新进度曝光~
-            </a></li>
-        
-            <li><a data-pos="focus_be_pos" data-idea="75658827" data-psync="_f=index_chan08house_carnews_8" title="吴越熙华雅苑这么受欢迎的原因 吴江吴越熙华雅苑楼层规划" href="http://suzhou.focus.cn/zixun/18295247.html" target="_blank" data-spm-data="9">
-                吴越熙华雅苑这么受欢迎的原因 吴江吴越熙华雅苑楼层规划
-            </a></li>
-        
-            <li>广告<em style="color:#D0D0D0"> | </em><span data-god-id="15907" data-monitorkey="042dd99344428b99b_0_0">
-<a href="http://dealer.auto.sohu.com/2919/price/serise?seriseId=141269" target="_blank">北京 宝马2系促销</a>
-</span><span style="margin-left:10px" data-god-id="15908" data-monitorkey="02ad8c0f28e8d6619_0_0">
-<a href="http://dealer.auto.sohu.com/965103/price/serise?seriseId=139284" target="_blank">天津 CC优惠8万</a>
-</span></li>
-        
-    </ul>
-</div>
-</div>
+            <div data-role="focus-auto-main" class="main-right right" data-spm="focus-auto-news"></div>
         </div>
         <div class="main-modB clearfix">
             <div class="main-left left">
@@ -1504,7 +1463,7 @@
 <!--科技数码-->
 <div class="content-it-digital area public clearfix" data-role="it-digital-section">
     <div class="main left">
-        <div class="title-mod" data-spm="tech-digit-nav"><span class="tt"><a href="http://it.sohu.com/" target="_blank">法治</a></span></div>
+        <div class="title-mod" data-spm="tech-digit-nav"><span class="tt"><a href="http://it.sohu.com/" target="_blank">科技</a><em class="dot"></em><a href="http://it.sohu.com/" target="_blank">数码</a></span></div>
         <div class="main-modA clear">
             <div class="main-left left" data-spm="tech-digit-pics">
                 <div class="video-focusB"><a data-param="_f=index_chan08tech_digfocus_0" href="http://www.sohu.com/a/342937580_120095216" target="_blank" title="富士康员工工资单曝光，看看他们一个月挣多少钱？"><img src="//47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload_2_1.png" data-src="//5b0988e595225.cdn.sohucs.com/c_fill,w_410,h_205,g_faces/images/20190924/31361209ee384e358c85b3a0956b7723.jpeg" alt=""><span class="linear-box video-txt"><em class="linear-bg"></em><em class="linear-txt">富士康员工工资单曝光，看看他们一个月挣多少钱？</em></span></a></div>
@@ -1519,11 +1478,12 @@
             <div class="main-right right" data-spm="tech-digit-news">
                     <div class="list16">
                         <ul>
-                            <li><a data-param="_f=index_chan08tech_dignews_0" href="http://www.sohu.com/a/343011272_117917" target="_blank" title='从微信到百度：有赞看到了搜索流量的差异性'>
-                                <strong>从微信到百度：有赞看到了搜索流量的差异性</strong>
-                             </a></li>
 
-                       <li><a data-param="_f=index_chan08tech_dignews_1" href="http://www.sohu.com/a/343003039_649045" target="_blank" title='阿里重启来往 推出社交产品“Real如我”'>
+                                    <li><a data-param="_f=index_chan08tech_dignews_0" href="http://www.sohu.com/a/343011272_117917" target="_blank" title='从微信到百度：有赞看到了搜索流量的差异性'>
+                                        <strong>从微信到百度：有赞看到了搜索流量的差异性</strong>
+                                    </a></li>
+
+                                    <li><a data-param="_f=index_chan08tech_dignews_1" href="http://www.sohu.com/a/343003039_649045" target="_blank" title='阿里重启来往 推出社交产品“Real如我”'>
                                         阿里重启来往 推出社交产品“Real如我”
                                     </a></li>
 
@@ -1631,7 +1591,89 @@
 <div class="god-wrapper area clearfix" data-role="god_column">
 </div>
 
+<div class="bottom-footer area clearfix">
+    <div class="title"><span class="tt">合作媒体</span></div>
+    <div class="box">
+        <p>
+            <a href="http://www.chinanews.com/" target="_blank">中国新闻网</a>
+            <a href="http://www.xinhuanet.com/" target="_blank">新华网</a>
+            <a href="http://www.bjnews.com.cn" target="_blank">新京报</a>
+            <a href="http://www.ynet.com" target="_blank">北青网</a>
+            <a href="http://www.people.com.cn/" target="_blank">人民网</a>
+            <a href="http://www.dayoo.com/" target="_blank">大洋网</a>
+            <a href="http://www.qianlong.com" target="_blank">千龙网</a>
+            <a href="http://www.cnr.cn/" target="_blank">央广网</a>
+            <a title="" href="http://zqb.cyol.com/" target="_blank">中国青年报</a>
+            <a title="" href="http://www.guancha.cn/" target="_blank">观察者网</a>
+            <a title="" href="http://www.huanqiu.com/" target="_blank">环球网</a>
+            <a title="" href="http://www.ce.cn/" target="_blank">中国经济网</a>
+        </p>
+        <p>
+            <a href="http://www.hsw.cn/ " target="_blank">华商网</a>
+            <a href="http://www.cri.cn" target="_blank">国际在线</a>
+            <a href="http://www.gmw.cn" target="_blank">光明网</a>
+            <a href="http://www.haiwainet.cn" target="_blank">海外网</a>
+            <a href="http://www.cqwb.com.cn/" target="_blank">重庆晚报</a>
+            <a href="http://www.cctv.com" target="_blank">央视网</a>
+            <a href="http://www.jfdaily.com/" target="_blank">解放网</a>
+            <a href="http://www.21cn.com" target="_blank">21世纪</a>
+            <a href="http://www.yicai.com" target="_blank">第一财经</a>
+            <a title="" href="http://www.stcn.com" target="_blank">证券时报</a>
+            <a title="" href="http://www.cnhubei.com/" target="_blank">荆楚网</a>
+            <a href="http://xtopfly.com/" title="" target="_blank">霄云网</a>
+        </p>
+        <p>
+            <a href="http://www.zjol.com.cn/" target="_blank">浙江在线</a>
+            <a href="http://www.nen.com.cn/" target="_blank">东北新闻网</a>
+            <a href="http://www.chinatibetnews.com/" target="_blank">西藏新闻网</a>
+            <a href="http://www.dahe.cn/" target="_blank">大河网</a>
+            <a href="http://www.p5w.net" target="_blank">全景网</a>
+            <a href="http://www.iqilu.com/" target="_blank">齐鲁网</a>
+            <a href="http://www.bbtnews.com.cn" target="_blank">北京商报</a>
+            <a href="http://www.iyaxin.com/" target="_blank">亚心网</a>
+            <a title="" href="http://www.time-weekly.com" target="_blank">时代周报</a>
+            <a title="" href="http://www.thepaper.cn" target="_blank">澎湃</a>
+            <a title="" href="http://njrb.njdaily.cn/njrb/html/2017-09/30/node_1.htm" target="_blank">南京日报</a>
+        </p>
+        <p>
+            <a title="" href="http://www.cankaoxiaoxi.com/" target="_blank">参考消息</a>
+            <a title="" href="http://wallstreetcn.com" target="_blank">华尔街见闻</a>
+            <a title="" href="http://tzzb.dooland.com" target="_blank">投资者报</a>
+            <a href="http://www.nbd.com.cn/" target="_blank">每日经济新闻</a>
+            <a href="http://www.eeo.com.cn/" target="_blank">经济观察报</a>
+            <a title="" href="http://www.jiemian.com/" target="_blank">界面</a>
+            <a title="" href="http://www.longhoo.net/index.html" target="_blank">龙虎网</a>
+            <a title="" href="http://www.bundpic.com/" target="_blank">外滩画报</a>
+            <a title="" href="http://www.jxnews.com.cn/" target="_blank">中国江西网</a>
+            <a title="" href="http://news.hebei.com.cn/" target="_blank">长城网</a>
+            <a title="" href="http://www.gywb.com.cn/" target="_blank">贵阳网</a>
+        </p>
+        <p>
+            <a title="" href="http://www.yznews.com.cn/" target="_blank">扬州网</a>
+            <a title="" href="http://dzb.jinbaonet.com/html/2017-09/30/node_23.htm" target="_blank">现代金报</a>
+            <a title="" href="http://www.hf365.com/" target="_blank">合肥在线</a>
+            <a title="" href="http://www.eastday.com/" target="_blank">东方网</a>
+            <a title="" href="http://www.my399.com/" target="_blank">哈尔滨新闻网</a>
+            <a title="" href="http://www.ycwb.com/" target="_blank">金羊网</a>
+            <a title="" href="http://epaper.oeeee.com/epaper/A/html/2017-09/30/node_20850.htm" target="_blank">南方都市报</a>
+            <a title="" href="http://www.voc.com.cn/" target="_blank">华声在线</a>
+            <a title="" href="http://hnrb.voc.com.cn/" target="_blank">湖南日报</a>
+            <a title="" href="http://www.sdnews.com.cn/" target="_blank">鲁网</a>
+            <a title="" href="http://www.sdchina.com/" target="_blank">中国山东网</a>
+            <a title="" href="http://www.cqcb.com/" target="_blank">上游新闻</a>
+        </p>
+        <p>
+            <a title="" href="http://www.chengdu.cn/" target="_blank">成都全搜索新闻网</a>
+            <a title="" href="http://e.chengdu.cn/html/2017-09/30/node_2.htm" target="_blank">成都商报</a>
+            <a title="" href="http://hongxingxinwen.com/" target="_blank">红星新闻</a>
+            <a title="" href="http://cbgc3.scol.com.cn/" target="_blank">川报观察</a>
+            <a title="" href="http://www.cqnews.net/" target="_blank">华龙网</a>
+            <a title="" href="http://www.cqtimes.cn/" target="_blank">重庆时报</a>
+            <a title="" href="http://www.kunming.cn/" target="_blank">昆明信息港</a>
+        </p>
 
+    </div>
+</div>
 <footer class="footer area">
     <p><a href="http://pinyin.sogou.com/" target="_blank" rel="nofollow">搜狗输入法</a> - <a href="http://pay.sohu.com/" target="_blank" rel="nofollow">支付中心</a> - <a href="http://hr.sohu.com/" target="_blank" rel="nofollow">搜狐招聘</a> - <a href="http://ad.sohu.com/" target="_blank" rel="nofollow">广告服务</a> - <a href="//intro.sohu.com/contact" target="_blank" rel="nofollow">联系方式</a> - <a href="http://investors.sohu.com/" target="_blank" rel="nofollow">About SOHU</a> - <a href="//intro.sohu.com" target="_blank" rel="nofollow">公司介绍</a></p>
     <p>Copyright © 2019 Sohu All Rights Reserved. 搜狐公司 <a href="//intro.sohu.com/copyright" target="_blank" rel="nofollow">版权所有</a></p>
@@ -1668,7 +1710,7 @@
 </script>
 
 <script src="//statics.itc.cn/web/v3/static/js/lib-61587d9fb8.js"></script>
-
+<script src="//39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
 <!--<script src="//statics.itc.cn/web/v3/static/js/ie8hack-07e05e83f1.js"></script>-->
 <script src="//txt.go.sohu.com/ip/soip"></script>
 <script src="//statics.itc.cn/web/v3/static/js/main-da6c76eae4.js"></script>
