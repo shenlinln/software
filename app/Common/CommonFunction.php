@@ -155,7 +155,7 @@ class CommonFunction{
      * news_type
      */
     public function news_type(){
-        return ['1' => '本站精选','2' => '行业动态','3' => '企业动态','4' => '名企赏析','5' => '全球视野','6' => '阀门协会'];
+        return ['1' => '普通','2' => '要闻','3' => '专题'];
         
     }
     

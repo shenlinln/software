@@ -20,7 +20,7 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Hover Data Table</h3>
+              <h3 class="box-title"><button type="button" class="btn btn-block btn-primary" id="submit">添加新闻</button></h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -35,268 +35,30 @@
                 </tr>
                 </thead>
                 <tbody>
+                @foreach($news_list as $key => $value)
                 <tr>
-                  <td>Trident</td>
-                  <td>Internet
-                    Explorer 4.0
-                  </td>
-                  <td>Win 95+</td>
+                  <td>{{$value->title}}</td>
+                  <td><img src="https://valve-platform.oss-cn-beijing.aliyuncs.com/{{$value->news_image}}" /></td>
                   <td> 4</td>
+                  <td>{{ date('Y-m-d',$value->release_date) }}</td>
                   <td >
                   <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
                   <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
                   </td>
                 </tr>
-                <tr>
-                  <td>Trident</td>
-                  <td>Internet
-                    Explorer 5.0
-                  </td>
-                  <td>Win 95+</td>
-                  <td>5</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Trident</td>
-                  <td>Internet
-                    Explorer 5.5
-                  </td>
-                  <td>Win 95+</td>
-                  <td>5.5</td>
-                 <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Trident</td>
-                  <td>Internet
-                    Explorer 6
-                  </td>
-                  <td>Win 98+</td>
-                  <td>6</td>
-                      <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>              
-                </tr>
-                <tr>
-                  <td>Trident</td>
-                  <td>Internet Explorer 7</td>
-                  <td>Win XP SP2+</td>
-                  <td>7</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Trident</td>
-                  <td>AOL browser (AOL desktop)</td>
-                  <td>Win XP</td>
-                  <td>6</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Firefox 1.0</td>
-                  <td>Win 98+ / OSX.2+</td>
-                  <td>1.7</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Firefox 1.5</td>
-                  <td>Win 98+ / OSX.2+</td>
-                  <td>1.8</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Firefox 2.0</td>
-                  <td>Win 98+ / OSX.2+</td>
-                  <td>1.8</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Firefox 3.0</td>
-                  <td>Win 2k+ / OSX.3+</td>
-                  <td>1.9</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Camino 1.0</td>
-                  <td>OSX.2+</td>
-                  <td>1.8</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Camino 1.5</td>
-                  <td>OSX.3+</td>
-                  <td>1.8</td>
-                 <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Netscape 7.2</td>
-                  <td>Win 95+ / Mac OS 8.6-9.2</td>
-                  <td>1.7</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Netscape Browser 8</td>
-                  <td>Win 98SE+</td>
-                  <td>1.7</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Netscape Navigator 9</td>
-                  <td>Win 98+ / OSX.2+</td>
-                  <td>1.8</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Mozilla 1.0</td>
-                  <td>Win 95+ / OSX.1+</td>
-                  <td>1</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Mozilla 1.1</td>
-                  <td>Win 95+ / OSX.1+</td>
-                  <td>1.1</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Mozilla 1.2</td>
-                  <td>Win 95+ / OSX.1+</td>
-                  <td>1.2</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Mozilla 1.3</td>
-                  <td>Win 95+ / OSX.1+</td>
-                  <td>1.3</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Mozilla 1.4</td>
-                  <td>Win 95+ / OSX.1+</td>
-                  <td>1.4</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Mozilla 1.5</td>
-                  <td>Win 95+ / OSX.1+</td>
-                  <td>1.5</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Gecko</td>
-                  <td>Mozilla 1.6</td>
-                  <td>Win 95+ / OSX.1+</td>
-                  <td>1.6</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>Other browsers</td>
-                  <td>All others</td>
-                  <td>-</td>
-                  <td>-</td>
-                  <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
-                  </td>
-                </tr>
+                @endforeach
                 </tbody>
-                <tfoot>
-                <tr>
-                  <th>Rendering engine</th>
-                  <th>Browser</th>
-                  <th>Platform(s)</th>
-                  <th>Engine version</th>
-                  <th>CSS grade</th>
-                </tr>
-                </tfoot>
               </table>
             </div>
-            <!-- /.box-body -->
           </div>
-          <!-- /.box -->
-
-          
-          <!-- /.box -->
         </div>
-        <!-- /.col -->
       </div>
-      <!-- /.row -->
     </section>
-    <!-- /.content -->
   </div>
+ <script type="text/javascript">
+ document.getElementById("submit").onclick=function(){add()};
+ function add(){
+	 window.location.href = "/admin/news/add";
+}
+</script>
  @endsection

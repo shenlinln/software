@@ -17,9 +17,12 @@ Route::get('/', function () {
 
  Route::get('admin/index',"Admin\LoginController@index");
  Route::match(['get', 'post'],'admin/login',"Admin\LoginController@login");
+ Route::get('web/news/list',"Web\WebNewsController@list")->name('list');
+ 
+ 
  
  Route::group(['namespace' => 'Admin','middleware' => ['admin.login']], function(){
      Route::get('admin/news/list',"NewsController@list");
-
-     
+     Route::get('admin/news/add',"NewsController@add");
+     Route::post('admin/news/save',"NewsController@save");
  });
