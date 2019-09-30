@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('FILESYSTEM_DRIVER', 'oss'),
+    'default' => env('FILESYSTEM_DRIVER', 'news_images'),
 
     /*
     |--------------------------------------------------------------------------
@@ -54,6 +54,12 @@ return [
             'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
         ],
+        'news_images' => [
+            'driver' => 'local',
+            'root' => public_path('news'),
+            'url' => env('APP_URL').'/public',
+            'visibility' => 'public',
+        ],
         'oss' => [
             'driver'        => 'oss',
             'access_id'     => 'LTAI4Fs56NYdNsnr13jwH7Qz',
@@ -70,7 +76,7 @@ return [
             'key' => env('AWS_ACCESS_KEY_ID'),
             'secret' => env('AWS_SECRET_ACCESS_KEY'),
             'region' => env('AWS_DEFAULT_REGION'),
-            'bucket' => env('AWS_BUCKET'),
+            'bucket' => env('soucat'),
             'url' => env('AWS_URL'),
         ],
 

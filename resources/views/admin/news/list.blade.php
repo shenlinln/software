@@ -28,8 +28,8 @@
                 <thead>
                 <tr>
                   <th>新闻标题</th>
-                  <th>缩略图片</th>
                   <th>回复数</th>
+                  <th>是否置顶</th>
                   <th>发布时间</th>
                   <th>操作</th>
                 </tr>
@@ -38,12 +38,14 @@
                 @foreach($news_list as $key => $value)
                 <tr>
                   <td>{{$value->title}}</td>
-                  <td><img src="https://valve-platform.oss-cn-beijing.aliyuncs.com/{{$value->news_image}}" /></td>
+                  <!--  <td><img src="{{URL::asset('/news')}}/{{$value->news_image}}" width="120px" /></td>-->
                   <td> 4</td>
+                  <td>@if($value->is_top == 1)置顶@else未置顶@endif</td>
                   <td>{{ date('Y-m-d',$value->release_date) }}</td>
                   <td >
-                  <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
-                  <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
+                     <a class="btn"><button type="button" onclick="upload_video({{$value->id}});" class="btn btn-block btn-warning">上传视频</button></a>
+                     <a class="btn"><button type="button" class="btn btn-block btn-primary">修改</button></a>
+                     <a class="btn"><button type="button" class="btn btn-block btn-danger">删除</button></a>
                   </td>
                 </tr>
                 @endforeach

@@ -161,7 +161,8 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-
+        //JohnLui\AliOSS\AliOssServiceProvider::class,
+        //JohnLui\AliyunOSS::class,
         /*
          * Package Service Providers...
          */

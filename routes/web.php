@@ -25,4 +25,7 @@ Route::get('/', function () {
      Route::get('admin/news/list',"NewsController@list");
      Route::get('admin/news/add',"NewsController@add");
      Route::post('admin/news/save',"NewsController@save");
+     Route::get('admin/news/news_video_upload',"NewsController@news_video_upload");
+     Route::post('admin/news/save_upload',"NewsController@save_upload");
+     
  });

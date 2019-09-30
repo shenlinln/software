@@ -54,6 +54,12 @@ function add(){
            },
        }); 
 	}
+function upload_video(){
+	
+	window.open ('/admin/news/news_video_upload', 'newwindow', 'height=300, width=700, top=400, left=900, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=n o, status=no') ;
+}
+
+
 	function httpHelperupload(params) {
 	    var request;
 	    if(XMLHttpRequest)

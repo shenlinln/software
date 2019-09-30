@@ -11,101 +11,6 @@ class News extends Model
     public $timestamps = false;
     
     protected $fillable = ['news_image','title','content','news_type','news_big_image','is_top','source','source_title','source_url','keyword','video_url','release_date','choiceness'];
-    
-    //index
-    public function web_index_news_list($pagesize)
-    {
-        $list = $this::orderBy('id','DESC')
-        ->paginate($pagesize);
-        return $list;
-    }
-    public function web_essence_news($pagesize)
-    {
-        $list = $this::orderBy('browse','DESC')
-        ->paginate($pagesize);
-        return $list;
-    }
-    
-    //web
-    public function web_news_index($request,$is_top = null, $news_type = null,$pagesize,$sortby,$sortvalue)
-    {
-        
-        $search = '';
-        if(!empty($request['search']) && isset($request['search']))
-        {
-            $search = $request['search'];
-        }
-        $list = $this::where(function($query) use($search) {
-            if (!empty($search)) {
-                $query->where('title','like', '%' . $search . '%');}
-        })
-        ->where(function($query) use($news_type) {
-            if (!empty($news_type)) {
-                $query->where('news_type','=', $news_type);}
-        })
-        ->where(function($query) use($is_top) {
-            if (!empty($is_top)) {
-                $query->where('is_top','=', $is_top);}
-        })
-        ->orderBy($sortby,$sortvalue)
-        ->paginate($pagesize);
-        return $list;
-    }
-    //related to recommend
-    
-    public function web_news_recommend($request,$pagesize)
-    {
-        
-        $search = '';
-        if(!empty($request['search']) && isset($request['search']))
-        {
-            $search = $request['search'];
-        }
-        $list = $this::where(function($query) use($search) {
-            if (!empty($search)) {
-                $query->where('keyword','like', '%' . $search . '%');}
-        })
-        
-        ->orderBy('id','DESC')
-        ->paginate($pagesize);
-        return $list;
-    }
-    //web
-    public function web_news_list($request,$browse = null)
-    {
-        
-        $search = '';
-        $news_type = 0;
-        if(!empty($request['search']) && isset($request['search']))
-        {
-            $search = $request['search'];
-        }
-        if(!empty($request['query_newstype']) && isset($request['query_newstype']))
-        {
-            $news_type = $request['query_newstype'];
-        }
-        
-        $list = $this::where(function($query) use($search) {
-            if (!empty($search)) {
-                $query->where('title','like', '%' . $search . '%');}
-        })
-        ->where(function($query) use($news_type) {
-            if (!empty($news_type)) {
-                $query->where('news_type','=', $news_type);}
-        })
-        ->orderBy('id','DESC')
-        ->paginate(20);
-        return $list;
-    }
-    
-    public function web_news_top()
-    {
-        $list = $this::where('is_top',1)->orderBy('id','DESC')
-        ->paginate(3);
-        return $list;
-    }
-    
-    
     //admin
     public function admin_news_list($request)
     {
@@ -121,46 +26,7 @@ class News extends Model
         ->paginate(20);
         return $list;
     }
-    public  function change_news($request)
-    {
-        $id = $request['id'];
-        $update = $this::where('id', $id)->update(['title' =>  $request['title'],'synopsis' => $request['synopsis'],'content' => $request['content'],
-            'news_type' => $request['news_type'],'is_top' => $request['is_top']
-        ]);
-        return $update;
-    }
-    public function news_next($id)
-    {
-        $increment = $id;
-        
-        $result = $this::where('id','>',$increment)->orderBy('id','ASC')->first();
-        return $result;
-    }
-    
-    public function news_previous($id)
-    {
-        $previous = $id;
-        
-        $result = $this::where('id','<',$previous)->orderBy('id','DESC')->first();
-        return $result;
-    }
-    public function admin_first_new($id)
-    {
-        $result = $this::where('id',$id)->first();
-        return $result;
-    }
-    //admin_valve_del
-    public function admin_del_news($id)
-    {
-        $data = $this::where('id', $id)->delete();
-        return $data;
-        
-    }
-    public function admin_add_bigimage()
-    {
-        $select_bigimage = $this::orderBy('id','DESC')->first();
-        return $select_bigimage;
-    }
+
     public function news_add($request){
         
         
@@ -211,12 +77,14 @@ class News extends Model
         
         
     }
-    public function news_add_bigimage($request)
+    public function news_add_video_url($request)
     {
         $bigimage = $this::where('id',$request['id'])
-        ->update(['news_big_image' => $request['news_big_image']]);
+        ->update(['video_url' => $request['video_url']]);
         return $bigimage;
     }
+    
+    
     
 }
 
